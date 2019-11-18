@@ -1,0 +1,3 @@
+[09-Aug-2019 08:12:26 UTC] PHP Fatal error:  Class 'Illuminate\Database\Query\Builder' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Database/Query/JoinClause.php on line 7
+[09-Aug-2019 08:12:57 UTC] PHP Fatal error:  Trait 'Illuminate\Database\Concerns\BuildsQueries' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php on line 23
+[09-Aug-2019 08:12:59 UTC] PHP Fatal error:  Class 'Illuminate\Database\Query\Expression' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Database/Query/JsonExpression.php on line 7

@@ -1,0 +1,16 @@
+[09-Aug-2019 10:30:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Swift_DependencyContainer' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/dependency_maps/transport_deps.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/dependency_maps/transport_deps.php on line 3
+[09-Aug-2019 10:30:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Swift_DependencyContainer' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/dependency_maps/cache_deps.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/dependency_maps/cache_deps.php on line 3
+[09-Aug-2019 10:30:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Swift_DependencyContainer' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/dependency_maps/message_deps.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/dependency_maps/message_deps.php on line 3
+[09-Aug-2019 10:31:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Swift_DependencyContainer' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/dependency_maps/mime_deps.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/dependency_maps/mime_deps.php on line 5

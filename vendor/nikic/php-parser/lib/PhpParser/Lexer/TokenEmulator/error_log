@@ -1,0 +1,2 @@
+[09-Aug-2019 08:12:54 UTC] PHP Fatal error:  Interface 'PhpParser\Lexer\TokenEmulator\TokenEmulatorInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/CoaleseEqualTokenEmulator.php on line 8
+[09-Aug-2019 08:13:22 UTC] PHP Fatal error:  Interface 'PhpParser\Lexer\TokenEmulator\TokenEmulatorInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/FnTokenEmulator.php on line 8

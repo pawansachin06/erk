@@ -1,0 +1,1 @@
+[09-Aug-2019 08:30:10 UTC] PHP Fatal error:  Class 'SwiftMailerTestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/tests/unit/Swift/CharacterStream/ArrayCharacterStreamTest.php on line 3

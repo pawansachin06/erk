@@ -1,0 +1,2 @@
+[16-Sep-2019 21:15:06 UTC] PHP Fatal error:  Trait 'Illuminate\Notifications\HasDatabaseNotifications' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php on line 7
+[16-Sep-2019 21:15:10 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php on line 7

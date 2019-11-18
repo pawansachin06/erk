@@ -1,0 +1,4 @@
+[09-Aug-2019 06:59:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/database/factories/ModelFactory.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/database/factories/ModelFactory.php on line 15

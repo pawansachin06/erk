@@ -1,0 +1,4 @@
+[09-Aug-2019 07:29:46 UTC] PHP Fatal error:  Interface 'Illuminate\Translation\LoaderInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php on line 7
+[09-Aug-2019 07:30:19 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Translation/TranslationServiceProvider.php on line 7
+[09-Aug-2019 07:32:43 UTC] PHP Fatal error:  Interface 'Illuminate\Translation\LoaderInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Translation/ArrayLoader.php on line 5
+[09-Aug-2019 07:32:55 UTC] PHP Fatal error:  Class 'Illuminate\Support\NamespacedItemResolver' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Translation/Translator.php on line 13

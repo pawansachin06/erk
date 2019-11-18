@@ -1,0 +1,1 @@
+[09-Aug-2019 09:01:04 UTC] PHP Fatal error:  Class 'Hamcrest\AbstractMatcherTest' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Xml/HasXPathTest.php on line 4

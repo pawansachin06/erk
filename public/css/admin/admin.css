@@ -1,0 +1,10 @@
+.header .header-container .nav-logo > a {
+    display: inline-block;
+    max-width: 200px;
+    width: 100%;
+    color: #fff;
+    line-height: 65px;
+    font-size: 30px;
+}
+.admin-area .panel-heading{font-weight: 900;font-size: 35px;}
+.admin-box .admin-box-inner a {font-size: 20px;}

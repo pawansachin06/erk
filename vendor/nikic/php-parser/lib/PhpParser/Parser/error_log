@@ -1,0 +1,1 @@
+[09-Aug-2019 08:02:32 UTC] PHP Fatal error:  Interface 'PhpParser\Parser' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/nikic/php-parser/lib/PhpParser/Parser/Multiple.php on line 9

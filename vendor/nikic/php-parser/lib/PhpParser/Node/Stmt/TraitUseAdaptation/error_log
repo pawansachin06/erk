@@ -1,0 +1,2 @@
+[09-Aug-2019 10:33:28 UTC] PHP Fatal error:  Class 'PhpParser\Node\Stmt\TraitUseAdaptation' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php on line 7
+[09-Aug-2019 10:33:57 UTC] PHP Fatal error:  Class 'PhpParser\Node\Stmt\TraitUseAdaptation' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7

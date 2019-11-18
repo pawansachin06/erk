@@ -1,0 +1,2 @@
+[09-Aug-2019 07:42:43 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Container\ContextualBindingBuilder' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Container/ContextualBindingBuilder.php on line 7
+[09-Aug-2019 07:43:17 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Container\Container' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 13

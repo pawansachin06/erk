@@ -1,0 +1,2 @@
+[09-Aug-2019 10:43:07 UTC] PHP Fatal error:  Interface 'Prophecy\Prophecy\RevealerInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpspec/prophecy/src/Prophecy/Prophecy/Revealer.php on line 19
+[09-Aug-2019 10:43:49 UTC] PHP Fatal error:  Interface 'Prophecy\Prophecy\ProphecyInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpspec/prophecy/src/Prophecy/Prophecy/ObjectProphecy.php on line 30

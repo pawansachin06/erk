@@ -1,0 +1,1 @@
+[09-Aug-2019 07:10:50 UTC] PHP Fatal error:  Interface 'Symfony\Component\EventDispatcher\EventSubscriberInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/console/EventListener/ErrorListener.php on line 25

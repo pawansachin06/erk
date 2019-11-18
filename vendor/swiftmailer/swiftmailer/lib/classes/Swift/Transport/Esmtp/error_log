@@ -1,0 +1,1 @@
+[16-Sep-2019 21:08:29 UTC] PHP Fatal error:  Interface 'Swift_Transport_EsmtpHandler' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 16

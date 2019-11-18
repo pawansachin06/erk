@@ -1,0 +1,2 @@
+[09-Aug-2019 07:03:16 UTC] PHP Fatal error:  Interface 'Symfony\Component\Translation\Formatter\IntlFormatterInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/translation/Formatter/IntlFormatter.php on line 21
+[09-Aug-2019 07:03:17 UTC] PHP Fatal error:  Interface 'Symfony\Component\Translation\Formatter\MessageFormatterInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/translation/Formatter/MessageFormatter.php on line 22

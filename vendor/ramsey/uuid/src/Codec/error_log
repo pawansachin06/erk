@@ -1,0 +1,5 @@
+[09-Aug-2019 07:29:05 UTC] PHP Fatal error:  Class 'Ramsey\Uuid\Codec\StringCodec' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/ramsey/uuid/src/Codec/GuidStringCodec.php on line 24
+[09-Aug-2019 07:29:07 UTC] PHP Fatal error:  Interface 'Ramsey\Uuid\Codec\CodecInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/ramsey/uuid/src/Codec/StringCodec.php on line 28
+[09-Aug-2019 07:29:15 UTC] PHP Fatal error:  Class 'Ramsey\Uuid\Codec\StringCodec' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/ramsey/uuid/src/Codec/OrderedTimeCodec.php on line 23
+[09-Aug-2019 07:29:22 UTC] PHP Fatal error:  Class 'Ramsey\Uuid\Codec\StringCodec' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/ramsey/uuid/src/Codec/TimestampFirstCombCodec.php on line 22
+[09-Aug-2019 07:29:29 UTC] PHP Fatal error:  Class 'Ramsey\Uuid\Codec\StringCodec' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/ramsey/uuid/src/Codec/TimestampLastCombCodec.php on line 20

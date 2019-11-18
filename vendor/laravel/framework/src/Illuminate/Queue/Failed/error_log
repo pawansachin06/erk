@@ -1,0 +1,2 @@
+[09-Aug-2019 07:53:56 UTC] PHP Fatal error:  Interface 'Illuminate\Queue\Failed\FailedJobProviderInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Queue/Failed/DatabaseFailedJobProvider.php on line 8
+[09-Aug-2019 07:54:38 UTC] PHP Fatal error:  Interface 'Illuminate\Queue\Failed\FailedJobProviderInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Queue/Failed/NullFailedJobProvider.php on line 5

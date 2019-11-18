@@ -1,0 +1,1 @@
+[09-Aug-2019 08:02:21 UTC] PHP Fatal error:  Trait 'Illuminate\Auth\Access\HandlesAuthorization' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Auth/Access/Gate.php on line 12

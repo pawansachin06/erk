@@ -1,0 +1,1 @@
+[09-Aug-2019 06:29:01 UTC] PHP Fatal error:  Class 'Psr\Log\AbstractLogger' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/debug/BufferingLogger.php on line 21

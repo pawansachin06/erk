@@ -1,0 +1,2 @@
+[09-Aug-2019 07:11:53 UTC] PHP Fatal error:  Interface 'Symfony\Component\Console\Formatter\OutputFormatterInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/console/Formatter/OutputFormatter.php on line 21
+[09-Aug-2019 07:11:55 UTC] PHP Fatal error:  Interface 'Symfony\Component\Console\Formatter\OutputFormatterStyleInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/console/Formatter/OutputFormatterStyle.php on line 21

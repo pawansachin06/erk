@@ -1,0 +1,2 @@
+[09-Aug-2019 06:52:29 UTC] PHP Fatal error:  Interface 'Symfony\Component\Config\Resource\SelfCheckingResourceInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/http-kernel/Config/EnvParametersResource.php on line 23
+[09-Aug-2019 06:52:33 UTC] PHP Fatal error:  Class 'Symfony\Component\Config\FileLocator' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/http-kernel/Config/FileLocator.php on line 22

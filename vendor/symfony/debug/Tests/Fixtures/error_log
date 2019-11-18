@@ -1,0 +1,9 @@
+[09-Aug-2019 07:27:39 UTC] PHP Warning:  Class 'Symfony\Component\Debug\Tests\Fixtures\NotPSR0bis' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/debug/Tests/Fixtures/ClassAlias.php on line 3
+[09-Aug-2019 07:27:47 UTC] PHP Fatal error:  Uncaught Exception: boo in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/debug/Tests/Fixtures/Throwing.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/debug/Tests/Fixtures/Throwing.php on line 3
+[09-Aug-2019 07:27:57 UTC] PHP Fatal error:  Class 'Symfony\Component\Debug\Tests\Fixtures\FinalMethod' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/debug/Tests/Fixtures/ExtendedFinalMethod.php on line 5
+[09-Aug-2019 07:28:01 UTC] PHP Fatal error:  Interface 'Symfony\Component\Debug\Tests\Fixtures\DeprecatedInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/debug/Tests/Fixtures/NonDeprecatedInterface.php on line 5
+[09-Aug-2019 07:28:09 UTC] PHP Fatal error:  Trait 'Symfony\Component\Debug\Tests\Fixtures\InternalTrait2' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/debug/Tests/Fixtures/InternalClass.php on line 10
+[09-Aug-2019 07:28:46 UTC] PHP Fatal error:  Class 'Symfony\Component\Debug\BufferingLogger' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/debug/Tests/Fixtures/LoggerThatSetAnErrorHandler.php on line 7

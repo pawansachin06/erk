@@ -1,0 +1,1 @@
+[09-Aug-2019 08:04:15 UTC] PHP Fatal error:  Interface 'Illuminate\Database\Migrations\MigrationRepositoryInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php on line 7

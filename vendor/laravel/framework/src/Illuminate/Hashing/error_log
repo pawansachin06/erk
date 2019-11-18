@@ -1,0 +1,2 @@
+[09-Aug-2019 08:19:59 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Hashing/HashServiceProvider.php on line 7
+[09-Aug-2019 08:21:19 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Hashing\Hasher' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Hashing/BcryptHasher.php on line 8

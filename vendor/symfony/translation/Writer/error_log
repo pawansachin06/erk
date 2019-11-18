@@ -1,0 +1,1 @@
+[09-Aug-2019 07:07:11 UTC] PHP Fatal error:  Interface 'Symfony\Component\Translation\Writer\TranslationWriterInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/translation/Writer/TranslationWriter.php on line 24

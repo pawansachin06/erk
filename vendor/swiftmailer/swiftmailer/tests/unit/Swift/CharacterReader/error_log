@@ -1,0 +1,3 @@
+[09-Aug-2019 08:25:08 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/tests/unit/Swift/CharacterReader/UsAsciiReaderTest.php on line 3
+[09-Aug-2019 08:25:13 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/tests/unit/Swift/CharacterReader/GenericFixedWidthReaderTest.php on line 3
+[09-Aug-2019 08:25:14 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/tests/unit/Swift/CharacterReader/Utf8ReaderTest.php on line 3

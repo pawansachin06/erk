@@ -1,0 +1,2 @@
+[16-Sep-2019 21:15:03 UTC] PHP Fatal error:  Class 'Illuminate\Redis\Connections\Connection' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php on line 10
+[17-Sep-2019 09:17:37 UTC] PHP Fatal error:  Class 'Illuminate\Redis\Connections\Connection' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php on line 10

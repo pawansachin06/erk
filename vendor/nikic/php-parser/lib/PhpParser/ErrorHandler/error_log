@@ -1,0 +1,2 @@
+[09-Aug-2019 08:00:04 UTC] PHP Fatal error:  Interface 'PhpParser\ErrorHandler' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/nikic/php-parser/lib/PhpParser/ErrorHandler/Throwing.php on line 13
+[09-Aug-2019 08:01:57 UTC] PHP Fatal error:  Interface 'PhpParser\ErrorHandler' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/nikic/php-parser/lib/PhpParser/ErrorHandler/Collecting.php on line 13

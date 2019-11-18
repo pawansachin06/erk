@@ -1,0 +1,2 @@
+[09-Aug-2019 09:01:29 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Input\InputArgument' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/psy/psysh/src/Input/CodeArgument.php on line 30
+[09-Aug-2019 09:01:40 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Input\StringInput' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/psy/psysh/src/Input/ShellInput.php on line 20

@@ -1,0 +1,1 @@
+[09-Aug-2019 07:52:09 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/tinker/src/TinkerServiceProvider.php on line 10

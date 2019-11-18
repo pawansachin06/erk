@@ -1,0 +1,4 @@
+[09-Aug-2019 10:26:10 UTC] PHP Fatal error:  Class 'SwiftMailerSmokeTestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/tests/smoke/Swift/Smoke/BasicSmokeTest.php on line 6
+[09-Aug-2019 10:29:43 UTC] PHP Fatal error:  Class 'SwiftMailerSmokeTestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/tests/smoke/Swift/Smoke/InternationalSmokeTest.php on line 6
+[09-Aug-2019 10:32:46 UTC] PHP Fatal error:  Class 'SwiftMailerSmokeTestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/tests/smoke/Swift/Smoke/AttachmentSmokeTest.php on line 6
+[09-Aug-2019 10:33:04 UTC] PHP Fatal error:  Class 'SwiftMailerSmokeTestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/tests/smoke/Swift/Smoke/HtmlWithAttachmentSmokeTest.php on line 6

@@ -1,0 +1,2 @@
+[09-Aug-2019 10:30:18 UTC] PHP Fatal error:  Class 'Faker\Provider\fr_FR\Address' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/fzaninotto/faker/src/Faker/Provider/fr_CA/Address.php on line 5
+[09-Aug-2019 10:33:10 UTC] PHP Fatal error:  Class 'Faker\Provider\Person' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/fzaninotto/faker/src/Faker/Provider/fr_CA/Person.php on line 5

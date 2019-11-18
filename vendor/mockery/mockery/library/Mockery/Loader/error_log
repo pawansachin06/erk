@@ -1,0 +1,2 @@
+[09-Aug-2019 11:05:27 UTC] PHP Fatal error:  Interface 'Mockery\Loader\Loader' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mockery/mockery/library/Mockery/Loader/RequireLoader.php on line 8
+[09-Aug-2019 11:05:29 UTC] PHP Fatal error:  Interface 'Mockery\Loader\Loader' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mockery/mockery/library/Mockery/Loader/EvalLoader.php on line 8

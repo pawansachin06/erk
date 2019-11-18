@@ -1,0 +1,1 @@
+[09-Aug-2019 11:44:32 UTC] PHP Fatal error:  Class 'Swift_IoException' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Exception.php on line 16

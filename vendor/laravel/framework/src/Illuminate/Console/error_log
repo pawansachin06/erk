@@ -1,0 +1,4 @@
+[16-Sep-2019 21:04:08 UTC] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php on line 9
+[16-Sep-2019 21:04:10 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Application' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 17
+[16-Sep-2019 21:04:12 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Command\Command' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Console/Command.php on line 16
+[16-Sep-2019 21:04:19 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Style\SymfonyStyle' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php on line 9

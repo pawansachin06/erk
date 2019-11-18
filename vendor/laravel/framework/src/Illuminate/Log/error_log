@@ -1,0 +1,2 @@
+[09-Aug-2019 07:43:04 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Logging\Log' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Log/Writer.php on line 21
+[09-Aug-2019 07:43:54 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Log/LogServiceProvider.php on line 8

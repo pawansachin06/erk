@@ -1,0 +1,3 @@
+[09-Aug-2019 06:19:55 UTC] PHP Fatal error:  Interface 'Symfony\Component\Routing\RouterInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/Router.php on line 34
+[09-Aug-2019 06:20:09 UTC] PHP Fatal error:  Interface 'Symfony\Component\Routing\RouteCompilerInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/RouteCompiler.php on line 20
+[09-Aug-2019 06:20:26 UTC] PHP Fatal error:  Interface 'Symfony\Component\Routing\Matcher\UrlMatcherInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/RouterInterface.php on line 24

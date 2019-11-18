@@ -1,0 +1,59 @@
+
+
+.page-item.disabled .page-link {font-size: 18px;}
+header{background: #2b96e9;display: block;color: #fff;font-size: 18px;}
+.sidebar-section {
+    width: 28%;
+    background: #f2f2f2;
+}
+.customer-account .content-section {
+    height: 100%;
+}
+.main-section-container.customer-account {
+    height: calc(100vh - 47px);
+}
+.main-section-container.customer-account {
+    display: flex;
+    max-width: 1366px;
+    margin: 0 auto;
+    position: relative;
+}
+.content-section {
+    width: 72%;
+    background: #fafafa;
+    position: relative;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 25px;
+}
+.sidebar-account {
+    padding-top: 23px;
+    height: 100%;
+}
+.sidebar-account .sidebar-inner .sidebar-innerr > a {
+    cursor: pointer;
+}
+.sidebar-account .sidebar-innerr a > h4 {
+    margin: 0;
+    letter-spacing: 0.38px;
+    line-height: 20px;
+    padding: 20px 0 20px 30px;
+    color: #8d8d8d !important;
+    font-family: 'Assistant';
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.sidebar-account .sidebar-innerr a.active > h4 {
+    color: #3c3c3c !important;
+    font-weight: 700;
+}
+.wrpper.d-flex{flex-direction: column;height: 100%;}
+.main-content-section-right {
+    padding: 32px 65px 0;
+}
+
+div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
+    display: none;
+}

@@ -1,0 +1,7 @@
+[09-Aug-2019 11:00:35 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpunit/phpunit/tests/Util/RegexTest.php on line 11
+[09-Aug-2019 11:00:36 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpunit/phpunit/tests/Util/GlobalStateTest.php on line 11
+[09-Aug-2019 11:00:37 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpunit/phpunit/tests/Util/ConfigurationTest.php on line 11
+[09-Aug-2019 11:00:39 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpunit/phpunit/tests/Util/XMLTest.php on line 11
+[09-Aug-2019 11:00:40 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpunit/phpunit/tests/Util/GetoptTest.php on line 11
+[09-Aug-2019 11:00:41 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpunit/phpunit/tests/_files/CoverageNamespacedFunctionTest.php on line 2
+[09-Aug-2019 11:00:44 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpunit/phpunit/tests/Util/PHPTest.php on line 18

@@ -1,0 +1,2 @@
+[09-Aug-2019 11:14:45 UTC] PHP Fatal error:  Interface 'phpDocumentor\Reflection\DocBlock\Tags\Formatter' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Formatter/AlignFormatter.php on line 19
+[09-Aug-2019 11:15:13 UTC] PHP Fatal error:  Interface 'phpDocumentor\Reflection\DocBlock\Tags\Formatter' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpdocumentor/reflection-docblock/src/DocBlock/Tags/Formatter/PassthroughFormatter.php on line 18

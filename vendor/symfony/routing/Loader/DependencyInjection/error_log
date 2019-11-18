@@ -1,0 +1,1 @@
+[09-Aug-2019 07:24:27 UTC] PHP Fatal error:  Class 'Symfony\Component\Routing\Loader\ObjectRouteLoader' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/Loader/DependencyInjection/ServiceRouterLoader.php on line 22

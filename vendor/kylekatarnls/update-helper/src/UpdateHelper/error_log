@@ -1,0 +1,1 @@
+[09-Aug-2019 10:43:03 UTC] PHP Fatal error:  Interface 'Composer\Plugin\PluginInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/kylekatarnls/update-helper/src/UpdateHelper/ComposerPlugin.php on line 11

@@ -1,0 +1,7 @@
+[09-Aug-2019 07:52:48 UTC] PHP Fatal error:  Class 'Illuminate\Queue\Jobs\Job' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Queue/Jobs/DatabaseJob.php on line 9
+[09-Aug-2019 07:53:16 UTC] PHP Fatal error:  Class 'Illuminate\Queue\Jobs\Job' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Queue/Jobs/SqsJob.php on line 9
+[09-Aug-2019 07:54:05 UTC] PHP Fatal error:  Class 'Illuminate\Queue\Jobs\Job' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Queue/Jobs/BeanstalkdJob.php on line 10
+[09-Aug-2019 07:54:07 UTC] PHP Fatal error:  Class 'Illuminate\Queue\Jobs\Job' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Queue/Jobs/RedisJob.php on line 10
+[09-Aug-2019 07:54:12 UTC] PHP Fatal error:  Trait 'Illuminate\Queue\InteractsWithTime' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Queue/Jobs/Job.php on line 9
+[09-Aug-2019 07:54:14 UTC] PHP Fatal error:  Trait 'Illuminate\Queue\InteractsWithTime' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Queue/Jobs/DatabaseJobRecord.php on line 9
+[09-Aug-2019 07:54:40 UTC] PHP Fatal error:  Class 'Illuminate\Queue\Jobs\Job' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Queue/Jobs/SyncJob.php on line 8

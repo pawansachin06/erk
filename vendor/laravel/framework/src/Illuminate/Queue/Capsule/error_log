@@ -1,0 +1,1 @@
+[09-Aug-2019 08:12:55 UTC] PHP Fatal error:  Trait 'Illuminate\Support\Traits\CapsuleManagerTrait' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Queue/Capsule/Manager.php on line 16

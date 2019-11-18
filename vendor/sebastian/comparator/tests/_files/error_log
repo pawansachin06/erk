@@ -1,0 +1,1 @@
+[09-Aug-2019 07:22:10 UTC] PHP Fatal error:  Class 'SebastianBergmann\Comparator\ObjectComparator' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/sebastian/comparator/tests/_files/TestClassComparator.php on line 13

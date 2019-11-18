@@ -1,0 +1,212 @@
+
+
+*:focus{box-shadow:none !important;outline:none !important;}
+.cp{cursor:pointer;}
+a:hover, a:focus{text-decoration: none;box-shadow: none;}
+/*#app-navbar-collapse.collapse {display: block !important;}*/
+nav.navbar.app-sidebar{overflow: hidden;justify-content: flex-start !important;padding: 70px 0 0;align-items: flex-start;}
+body, html{height: 100%}
+body #app{background: #fff;}
+.laravel-login{min-height:100vh;display: flex;width: 100%;flex-direction: column;justify-content: center;height: 100%;}
+.login-page {max-width: 460px;margin: 0px auto 0;}
+.login-body-width {max-width: 326px;min-width: 326px;margin: 0 auto;}
+.login-page input {width: 100%;background: #fafafa !important;border: 1px solid #ccc !important;border-radius: 0;height: 45px;}
+.login-body-width form {max-width: 537px;margin: 0 auto;position: relative;}
+.login-page input[type="checkbox"] {height: auto;}
+.stay-and-forget .regular-checkbox, .stay-forget .regular-checkbox {opacity: 0 !important;position: absolute;left: 0;z-index: 99;top: 0;}
+.laravel-login .panel-heading{margin-bottom: 30px;border:none;color: #4d4d4d;font-size: 45px;font-weight: 600;line-height: 63px;letter-spacing: 0.45px;}
+.stay-forget {width: 100%;margin-top: 18px;}
+.stay-forget .checkbox {width: 50%;}
+.stay-and-forget .regular-checkbox, .stay-forget .regular-checkbox {opacity: 0 !important;position: absolute;left: 0;z-index: 99;top: 0;}
+.login-page input {width: 100%;background: #fafafa !important;border: 1px solid #ccc !important;border-radius: 0;height: 45px;}
+.regular-checkbox + label {margin-bottom: 0;background-color: #fafafa;border: 1px solid #979797;padding: 9px;border-radius: 0px;display: inline-block;position: relative;}
+.stay-forget .checkbox span {margin-left: 10px;line-height: 17px;color: #9b9b9b;font-size: 14px;font-weight: 400;letter-spacing: 0.3px;display: inline-block;vertical-align: top;margin-top: 3px;}
+.stay-forget .forget-pass {width: 50%;}
+.forget-pass > a {color: #2b96e9;font-size: 14px;font-weight: 400;line-height: 40px;letter-spacing: 0.44px;}
+.regular-checkbox:checked + label:after {content: '\2714';font-size: 14px;position: absolute;top: -0.5px;left: 4px;color: #99a1a7;}
+.regular-checkbox:checked + label {background-color: #e9ecee;border: 1px solid #adb8c0;color: #99a1a7;}
+.checkbox {position: relative;display: block;}
+.login-btn-id > button {background: #2b96e9 !important;border: none !important;border-radius: 0 !important;}
+.create-an-account {display: inline-block;width: 100%;margin-top: 33px;text-align: center;}
+.create-an-account a {color: #2481e3;font-size: 14px;font-weight: 400;line-height: 24px;color: #4d4d4d;letter-spacing: 0.44px;}
+.create-an-account a > span {color: #2b96e9;}
+.laravel-login .form-horizontal .control-label {font-size: 16px;}
+.laravel-login .form-horizontal .form-control {font-size: 16px;}
+.laravel-login .laravel-login-inner .panel{border:none !important;box-shadow: none;}
+.laravel-login .laravel-login-inner .login-btn-wrapper button{border:1px solid #00BFFF;background-color: #00BFFF;font-size: 16px;padding: 4px 18px;}
+.login-btn-wrapper .btn-link{font-size: 14px;}
+.login-btn-wrapper .btn-link:hover{text-decoration: none;}
+.laravel-login .checkbox input[type="checkbox"]{margin-top: 6px;}
+.laravel-login .checkbox{margin: 10px 0;}
+.laravel-login .checkbox{margin: 10px 0;}
+.after-login .panel{margin-top: 100px;border:none;}
+.after-login .panel .panel-heading, .after-login .panel .panel-body{font-size: 14px;}
+.dashboard-after-login {background: none !important;}
+.dashboard-after-login img{max-width: 100px;margin-bottom: 30px;}
+.box-wrap {font-size: 20px;}
+.admin-profile a:hover{text-decoration:none !important;}
+.app-header {position: fixed;left: 0;right: 0;top: 0;width: 100%;display: -webkit-box;display: -ms-flexbox;display: flex;background-color: #00BFFF;z-index: 1030;padding-right: 15px;}
+.laravel-login .checkbox label{font-size: 16px;}
+.pagination-wrap a {font-size: 13px;color: #00BFFF;}
+.pagination-wrap a:hover {text-decoration: none;}
+.firs-last-wrap {text-align: center;margin-bottom: 0px !important;font-size: 13px;color: #757575;margin-right: 20px;}
+.pagination-list li {border:none;background: #fff !important;margin-right: 2px;color:#00BFFF !important;}
+.pagination-list li.current-li {border:none;background: #00BFFF !important;}
+.pagination-list li.current-li a {color:#fff !important;}
+.pagination-list li.current-li:hover {border:none;}
+.pagination-list li.current-li:focus {border:none;}
+.pagination-wrap a:hover{text-decoration: none;}
+.pagination-wrap li.active a{text-decoration: none;}
+.pagination-wrap a{text-decoration: none;}
+.login-page .btn,.register-page .btn {background-color: #2b96e9;border-radius: 0;color: #fff;font-size: 14px;font-weight: 700;line-height: 50px!important;text-transform: uppercase;letter-spacing: 1.84px;height: 50px;padding: 0 40px!important;border-radius: 0;box-shadow: none;}
+.add-c .checkbox {display: block;position: relative;padding-left: 35px;margin-bottom: 12px;cursor: pointer;font-size: 22px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.add-c .checkbox input {position: absolute;left: 0;opacity: 0;cursor: pointer;height: 16px !important;width: 16px !important;z-index: 99;}
+.checkmark {position: absolute;top: 0;left: 0;height: 16px;width: 16px;background-color: #ddd;}
+.add-c .checkmark {background-color: #fff;border: 1px solid #ddd;}
+.add-c .checkbox:hover input ~ .checkmark {background-color: #fff;}
+.add-c .checkbox input:checked ~ .checkmark {background-color: #2196F3;}
+.checkmark:after {content: "";position: absolute;display: none;}
+.add-c .checkbox input:checked ~ .checkmark:after {display: block;}
+.add-c .checkbox .checkmark:after {left: 5px;top: 2px;width: 4px;height: 8px;border: solid #fff;border-width: 0 2px 2px 0;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);}
+.app-header__logo {-webkit-box-flex: 1;-ms-flex: 1 0 auto;flex: 1 0 auto;color: #fff;text-align: center;font-family: 'Niconne';padding: 0 15px;font-size: 26px;font-weight: 400;line-height: 50px;}
+.app-sidebar__toggle {padding: 0 15px;font-family: fontAwesome;color: #fff;line-height: 2.4;-webkit-transition: background-color 0.3s ease;-o-transition: background-color 0.3s ease;transition: background-color 0.3s ease;}
+.app-sidebar__toggle:before {content: "\f0c9";font-size: 21px;}
+.app-sidebar__toggle:focus, .app-sidebar__toggle:hover {color: #fff;background-color: #00635a;text-decoration: none;}
+.admin-profile .dropdown-toggle::after {display: none;}
+.app-sidebar {position: fixed;top: 0;min-height: 100vh;bottom: 0;left: 0;padding-top: 70px;width: 230px;overflow: auto;z-index: 10;background-color: #222d32;box-shadow: none;-webkit-transition: left 0.3s ease,width 0.3s ease;-o-transition: left 0.3s ease,width 0.3s ease;transition: left 0.3s ease,width 0.3s ease;}
+.app-sidebar__user {width:100%;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;padding: 10px;margin-bottom: 20px;color: #fff;}
+.app-sidebar .navbar-collapse.collapse {height: calc(100% - 88px) !important;}
+.app-sidebar__user-avatar {-webkit-box-flex: 0;-ms-flex: 0 0 auto;flex: 0 0 auto;margin-right: 15px;}
+.rounded-circle, .app-sidebar__user-avatar {border-radius: 50% !important;}
+.app-sidebar__user-name, .app-sidebar__user-designation {white-space: nowrap;overflow: hidden;-o-text-overflow: ellipsis;text-overflow: ellipsis;margin-bottom: 0;}
+app-sidebar__user-name, .app-sidebar__user-designation {white-space: nowrap;overflow: hidden;-o-text-overflow: ellipsis;text-overflow: ellipsis;margin-bottom: 0;}
+.app-sidebar__user-name {font-size: 18px;line-height: 1.3;}
+.app-sidebar__user-designation {font-size: 14px;line-height: 1.3;}
+.app-header__logo:focus, .app-header__logo:hover {text-decoration: none;color: #fff;}
+.navbar.app-sidebar .navbar-nav, .navbar.app-sidebar .navbar-nav > li {float: none;}
+.navbar.app-sidebar .navbar-nav > li > a{border-left: 3px solid transparent;-webkit-transition: border-left-color 0.3s ease,background-color 0.3s ease;-o-transition: border-left-color 0.3s ease, background-color 0.3s ease;transition: border-left-color 0.3s ease, background-color 0.3s ease;color:#fff;}
+#app-navbar-collapse i {font-size: 16px;min-width: 25px;}
+.app-sidebar .nav > li > a:hover, .app-sidebar .nav > li > a:focus {border-left-color: #00BFFF;text-decoration: none;background-color: #0d1214;}
+.app-sidebar .navbar-collapse{padding-left: 0;padding-right: 0;}
+.app-sidebar .navbar-nav > li > a.app-menu__item {position: relative;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;padding: 12px 15px;font-size: 16px;border-left: 3px solid transparent;-webkit-transition: border-left-color 0.3s ease,background-color 0.3s ease;-o-transition: border-left-color 0.3s ease,background-color 0.3s ease;transition: border-left-color 0.3s ease,background-color 0.3s ease;color: #fff;}
+.treeview.is-expanded .treeview-indicator {-webkit-transform: rotate(90deg);-ms-transform: rotate(90deg);transform: rotate(90deg);}
+.treeview-indicator {-webkit-transform-origin: center;-ms-transform-origin: center;transform-origin: center;-webkit-transition: -webkit-transform 0.3s ease;transition: -webkit-transform 0.3s ease;-o-transition: transform 0.3s ease;transition: transform 0.3s ease;transition: transform 0.3s ease, -webkit-transform 0.3s ease;}
+.admin-profile span{color:#fff;font-size: 16px;}
+.admin-profile .dropdown-menu a {color: #fff;font-size: 13px;padding: 2px 18px;line-height: 20px;}
+.admin-profile .dropdown-menu {position: absolute;right:-12px;transform: none !important;top: 50px !important;left: auto !important;text-align: center;float: none;min-width: 0px;margin: 0;border: 0;border-radius: 0;-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);background: #00BFFF;color: #fff !important;}
+.admin-profile .dropdown-menu > a{text-decoration: none !important;}
+.admin-profile .dropdown-menu > a:hover{text-decoration: none !important;}
+.admin-profile {flex: 1 0 auto;}
+.admin-profile .dropdown-menu > li > a:hover, .admin-profile .dropdown-menu > li > a:focus {color: #fff;text-decoration: none;background-color: #00BFFF;}
+.school-new {width: calc(100% - 230px);}
+.school-add {width: calc(100% - 230px);}
+.table tr td{font-size: 14px;}
+.table thead tr th{font-size: 16px;}
+.app-content .add-btn > button{background: #00BFFF;}
+.app-content .add-btn > button > a{color: #fff;font-size: 12px;background: #00BFFF;display: inline-block;padding: 2px 4px;text-transform: uppercase;font-weight: 400;letter-spacing: 1px;}    
+.add-c .tile-footer button{color: #fff;font-size: 12px;background: #00BFFF;display: inline-block;padding: 4px 10px;margin: 10px 0 0 15px;text-transform: uppercase;font-weight: 400;letter-spacing: 1px;}
+.add-c .tile-footer button:hover{color: #fff;background-color: #00BFFF;border: 1px solid #00BFFF;}
+.tile-footer {border-top: 1px solid #ddd;padding: 5px 0 0 0;margin-top: 0;text-align: right;margin-right: 15px;margin-left: 15px;}
+form.add-c {min-height: calc(100vh - 200px);padding-top: 40px;background: #fff;}
+.add-c .add-c-inner-wrap {min-height: calc(100vh - 300px);}
+.app-content .add-btn > button > a:hover{text-decoration: none;}
+.add-c span.text-danger{font-size: 12px;}
+.table-btn .btn-default:active, .table-btn .btn-default.active, .table-btn .open > .btn-default.dropdown-toggle {color: #fff !important;background-color: #00BFFF !important;border-color: #adadad;}
+.add-c .checkbox{margin-top: 2.5px;margin-bottom: 0;}
+.add-c .checkbox input{margin-left: 0;}
+.app-content {min-height: calc(100vh - 50px);margin-top: 50px;padding: 20px;background-color: #E5E5E5;-webkit-transition: margin-left 0.3s ease;-o-transition: margin-left 0.3s ease;transition: margin-left 0.3s ease;}
+.school-add-inner{min-height: calc(100vh - 50px);margin-top: 50px;padding: 20px;background-color: #E5E5E5;-webkit-transition: margin-left 0.3s ease;-o-transition: margin-left 0.3s ease;transition: margin-left 0.3s ease;}
+.app-title {background-color: #FFF;padding: 20px 30px;-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);margin: -30px -20px 30px;}
+.app-title p {margin-bottom: 0;font-style: italic;font-size: 25px;}
+.add-c label{font-size: 14px;font-weight: 400;}
+.add-c input{height: 40px !important;line-height:40px;font-size: 14px;}
+.add-c select{height: 40px !important;line-height:40px;font-size: 14px;}
+.admin-profile > .dropdown {height: 100%;color: #fff;display: flex;justify-content: flex-end;align-items: center;}
+.admin-profile > .dropdown.show {display: flex !important;}
+.table-wrapper {position: relative;clear: both;background: #fff;border-radius: 3px;-webkit-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+.table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td {border-top: 1px solid #ccc;    padding: 2px 5px;}
+.table-btn button{color: #fff;font-size: 12px;background: #00BFFF;display: inline-block;padding: 5px 10px;text-transform: uppercase;font-weight: 700;letter-spacing: 1px;} 
+.edit-delete button a{color:#00BFFF;} 
+.table-wrapper table .form-group{margin-bottom: 0 !important;}
+.table-wrapper table input{font-size: 13px;height: 30px;font-weight: 400;}
+.edit-delete button{border:none;}
+.edit-delete button i{font-size: 18px;color:#00BFFF;}
+.edit-delete button:hover{background: none;border:none;}
+.table-btn button:hover{text-decoration: none;background: #00BFFF;color:#fff;}
+.school-admin .table-wrapper table thead th:first-child{width:5%;}
+.school-admin .table-wrapper table thead th:nth-child(2){width:20%;}
+.school-admin .table-wrapper table thead th:nth-child(3){width:20%;}
+.school-admin .table-wrapper table thead th:nth-child(4){width:20%;}
+.school-admin .table-wrapper table thead th:nth-child(5){width:20%;}
+.school-admin .table-wrapper table thead th:nth-child(6){width:15%;}
+.teacher .table-wrapper table thead th:first-child{width:5%;}
+.teacher .table-wrapper table thead th:nth-child(2){width:20%;}
+.teacher .table-wrapper table thead th:nth-child(3){width:20%;}
+.teacher .table-wrapper table thead th:nth-child(4){width:20%;}
+.teacher .table-wrapper table thead th:nth-child(5){width:20%;}
+.teacher .table-wrapper table thead th:nth-child(6){width:15%;}
+.school .table-btn{display: block;}
+body.sidenav-toggled .app-sidebar__user > div{display: none;}
+body.sidenav-toggled .app-sidebar__user-avatar {margin-right: 0;width: 30px;height: 30px;}
+body.sidenav-toggled .app-sidebar__user {padding:5px;}
+body.sidenav-toggled .app-sidebar .navbar-nav > li > a.app-menu__item{padding: 12px 8px;}
+.add-c .select-api {height: 100px !important;line-height: 40px;font-size: 14px;}
+
+/*************************
+Register Page
+*************************/
+
+
+.register-page .signup-heading-content .page-title {margin-top: 0;padding-top: 0;}
+.container.register-page{max-width: 1366px;margin: 0 auto !Important;padding: 0;}
+.register-page{background: #fff;}
+.register-account-container {display: flex;flex-direction: column;justify-content: center;align-items: center;clear: both;min-height: calc(100vh - 136px);}
+.signup-heading-content {max-width: 720px;width: 100%;margin: 0 auto;text-align: center;}
+.signup-heading-content .page-title {margin: 0;color: #4d4d4d !important;letter-spacing: 0.45px;font-size: 45px;font-weight: 600;line-height: 60px;margin-top: 47px;margin-bottom: 10px;padding-top: 47px;}
+.register-account-container .register-account-inner{max-width: 460px;margin: 0 auto;}
+.stay-and-forget {display: inline-block;width: 100%;margin-top: 0;margin-bottom: 15px;}
+.stay-and-forget .checkbox {padding: 0;align-items: center;justify-content: space-between;display: flex;}
+.stay-and-forget .checkbox input {vertical-align: middle;width: 20px;height: 20px;border: 1px solid #d7d7d7 !important;border-radius: 0;margin-left: 0;margin-top: 6px;color: #2b96e9;font-size: 14px;font-weight: 400;line-height: 24px;letter-spacing: 0.44px;}
+.register-page .regular-checkbox:checked + label:after {top: 1px;}
+.regular-checkbox:checked + label:after {content: '\2714';font-size: 14px;position: absolute;top: -2px;left: 4px;color: #99a1a7;}
+.checkbox span {margin-left: 10px;line-height: 17px;color: #9b9b9b;font-size: 14px;font-weight: 400;letter-spacing: 0.3px;display: inline-block;vertical-align: top;}
+.form-group.button-wrappers{margin: 0;}
+.form-group.button-wrappers button{width: 100%;}
+.register-page input.regular-checkbox {opacity: 0 !important;}
+.register-page form.form-horizontal input {border-radius: 0;background: #fff !important;border: 1px solid #d4d4d4 !important;height: 45px;line-height: 45px;color: #9b9b9b;font-size: 14px;font-weight: 400;letter-spacing: 0.01px;}
+
+
+
+/*************************
+reset-page
+*************************/
+
+
+.reset-page{height: 100vh;display: flex;align-items: center;justify-content: space-between;}
+.recover-container {max-width: 750px;margin: 0 auto;padding: 0;}
+.recovery-header {color: #4d4d4d;font-size: 45px;font-weight: 600;line-height: 45px;letter-spacing: 0.45px;margin-bottom: 10px;}
+.sub-heading-recovery {color: #4d4d4d;font-size: 18px;font-weight: 300;letter-spacing: 1px;line-height: 20px;margin-bottom: 20px;}
+.recovery-customer-password {max-width: 326px;margin: 0 auto;position: relative;}
+.recovery-customer-password .form-control-height {margin-bottom: 21px !important;margin-right: 0;margin-left: 0;}
+.recover-container input {width: 100%;border-radius: 0;height: 45px;}
+.recover-container input {background: #fafafa!important;border: 1px solid #ccc!important;}
+.recover-container .panel{border:none;box-shadow: none;}
+.cancle-submit {width: 100%;display: inline-block;}
+.reset-page .btn {background-color: #2b96e9;width:100%;border-radius: 0;color: #fff;font-size: 13px;font-weight: 700;line-height: 40px!important;text-transform: uppercase;letter-spacing: 1.84px;height: 50px;border-radius: 0;box-shadow: none;}
+
+@media (min-width: 768px)
+{
+    .app-header {padding-right: 30px;}
+    .app-header__logo {-webkit-box-flex: 0;-ms-flex: 0 0 auto;flex: 0 0 auto;display: block;width: 230px;background-color: #428bca;}
+    .app-content {margin-left: 230px;}
+    .app-header__logo {-webkit-box-flex: 0;-ms-flex: 0 0 auto;flex: 0 0 auto;display: block;width: 230px;background-color: #428bca;}
+    body.sidenav-toggled .app-sidebar {left: 0;width: 50px;overflow: visible;}
+    body.sidenav-toggled .app-content {margin-left: 50px;}
+    body.sidenav-toggled .school-new {width: calc(100% - 50px);}
+    body.sidenav-toggled .app-sidebar .navbar-nav > li > a.app-menu__item span {display: block;position: absolute;top: 0;left: 50px;min-width: 130px;padding: 12px 5px 12px 5px;margin-left: -4px;line-height: 1;text-align: center;opacity: 0;background: #0d1214;border-top-right-radius: 4px;border-bottom-right-radius: 4px;}
+    body.sidenav-toggled .app-sidebar .navbar-nav > li > a.app-menu__item:hover, body.sidenav-toggled .app-sidebar .navbar-nav > li > a.app-menu__item:focus {background: #0d1214;border-left-color: #00BFFF;text-decoration: none;color: #fff;}
+    body.sidenav-toggled .app-sidebar .navbar-nav > li > a.app-menu__item {overflow: hidden;}
+    body.sidenav-toggled .app-sidebar .navbar-nav > li > a.app-menu__item:hover {overflow: visible;}
+    body.sidenav-toggled .app-sidebar .navbar-nav > li > a.app-menu__item:hover span {opacity: 1;}
+}
+

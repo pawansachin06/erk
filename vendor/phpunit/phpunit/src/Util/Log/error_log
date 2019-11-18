@@ -1,0 +1,4 @@
+[09-Aug-2019 11:25:26 UTC] PHP Fatal error:  Class 'PHPUnit_Util_Printer' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpunit/phpunit/src/Util/Log/JSON.php on line 14
+[09-Aug-2019 11:25:57 UTC] PHP Fatal error:  Class 'PHPUnit_Util_Printer' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpunit/phpunit/src/Util/Log/JUnit.php on line 16
+[09-Aug-2019 11:27:00 UTC] PHP Fatal error:  Class 'PHPUnit_Util_Printer' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpunit/phpunit/src/Util/Log/TAP.php on line 15
+[09-Aug-2019 11:32:44 UTC] PHP Fatal error:  Class 'PHPUnit_TextUI_ResultPrinter' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpunit/phpunit/src/Util/Log/TeamCity.php on line 17

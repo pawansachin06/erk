@@ -1,0 +1,2 @@
+[09-Aug-2019 08:20:03 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Encryption\Encrypter' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php on line 10
+[09-Aug-2019 08:20:30 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php on line 8

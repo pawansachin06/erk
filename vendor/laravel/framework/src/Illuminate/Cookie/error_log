@@ -1,0 +1,2 @@
+[09-Aug-2019 07:55:46 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 7
+[09-Aug-2019 08:00:20 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Cookie\QueueingFactory' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php on line 10

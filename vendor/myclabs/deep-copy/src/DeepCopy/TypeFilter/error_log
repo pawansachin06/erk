@@ -1,0 +1,2 @@
+[09-Aug-2019 08:42:03 UTC] PHP Fatal error:  Interface 'DeepCopy\TypeFilter\TypeFilter' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ShallowCopyFilter.php on line 8
+[09-Aug-2019 08:42:12 UTC] PHP Fatal error:  Interface 'DeepCopy\TypeFilter\TypeFilter' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php on line 8

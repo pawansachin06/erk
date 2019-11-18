@@ -1,0 +1,1 @@
+[09-Aug-2019 07:55:17 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Config\Repository' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Config/Repository.php on line 9

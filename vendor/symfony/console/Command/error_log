@@ -1,0 +1,2 @@
+[09-Aug-2019 07:39:21 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Command\Command' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/console/Command/ListCommand.php on line 26
+[09-Aug-2019 07:39:25 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Command\Command' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/console/Command/HelpCommand.php on line 25

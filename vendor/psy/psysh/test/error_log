@@ -1,0 +1,9 @@
+[09-Aug-2019 07:36:59 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/psy/psysh/test/ConsoleColorFactoryTest.php on line 17
+[09-Aug-2019 07:37:12 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/psy/psysh/test/ShellTest.php on line 21
+[09-Aug-2019 07:37:21 UTC] PHP Fatal error:  Class 'Psy\Shell' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/psy/psysh/test/FakeShell.php on line 16
+[09-Aug-2019 07:37:36 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/psy/psysh/test/SudoTest.php on line 16
+[09-Aug-2019 07:37:43 UTC] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting variable (T_VARIABLE) in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/psy/psysh/test/ClassWithSecrets.php on line 16
+[09-Aug-2019 07:37:50 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/psy/psysh/test/ConfigurationTest.php on line 20
+[09-Aug-2019 07:38:22 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/psy/psysh/test/ContextTest.php on line 16
+[09-Aug-2019 07:38:33 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/psy/psysh/test/CodeCleanerTest.php on line 16
+[09-Aug-2019 07:38:51 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/psy/psysh/test/ParserTestCase.php on line 18

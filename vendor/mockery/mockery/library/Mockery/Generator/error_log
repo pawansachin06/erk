@@ -1,0 +1,2 @@
+[09-Aug-2019 11:22:38 UTC] PHP Fatal error:  Interface 'Mockery\Generator\Generator' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mockery/mockery/library/Mockery/Generator/CachingGenerator.php on line 5
+[09-Aug-2019 11:24:06 UTC] PHP Fatal error:  Interface 'Mockery\Generator\Generator' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mockery/mockery/library/Mockery/Generator/StringManipulationGenerator.php on line 7

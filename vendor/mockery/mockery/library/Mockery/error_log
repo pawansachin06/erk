@@ -1,0 +1,4 @@
+[09-Aug-2019 10:51:59 UTC] PHP Fatal error:  Interface 'Mockery\MockInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mockery/mockery/library/Mockery/Mock.php on line 25
+[09-Aug-2019 10:52:08 UTC] PHP Fatal error:  Interface 'Mockery\ExpectationInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mockery/mockery/library/Mockery/CompositeExpectation.php on line 23
+[09-Aug-2019 10:52:23 UTC] PHP Fatal error:  Class 'Mockery\Expectation' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mockery/mockery/library/Mockery/VerificationExpectation.php on line 5
+[09-Aug-2019 10:52:25 UTC] PHP Fatal error:  Interface 'Mockery\ExpectationInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mockery/mockery/library/Mockery/Expectation.php on line 23

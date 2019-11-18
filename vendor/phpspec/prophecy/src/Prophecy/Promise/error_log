@@ -1,0 +1,4 @@
+[09-Aug-2019 10:43:06 UTC] PHP Fatal error:  Interface 'Prophecy\Promise\PromiseInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpspec/prophecy/src/Prophecy/Promise/ThrowPromise.php on line 25
+[09-Aug-2019 10:43:11 UTC] PHP Fatal error:  Interface 'Prophecy\Promise\PromiseInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpspec/prophecy/src/Prophecy/Promise/CallbackPromise.php on line 24
+[09-Aug-2019 10:43:28 UTC] PHP Fatal error:  Interface 'Prophecy\Promise\PromiseInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpspec/prophecy/src/Prophecy/Promise/ReturnArgumentPromise.php on line 23
+[09-Aug-2019 10:43:50 UTC] PHP Fatal error:  Interface 'Prophecy\Promise\PromiseInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpspec/prophecy/src/Prophecy/Promise/ReturnPromise.php on line 22

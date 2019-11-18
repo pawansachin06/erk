@@ -1,0 +1,1 @@
+[09-Aug-2019 06:42:22 UTC] PHP Fatal error:  Interface 'Symfony\Component\Translation\Reader\TranslationReaderInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/translation/Reader/TranslationReader.php on line 23

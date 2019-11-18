@@ -1,0 +1,15 @@
+[09-Aug-2019 07:05:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\Routing\RouteCollection' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/Tests/Fixtures/validpattern.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/Tests/Fixtures/validpattern.php on line 6
+[09-Aug-2019 07:06:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function import() on null in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/Tests/Fixtures/validresource.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/Tests/Fixtures/validresource.php on line 5
+[09-Aug-2019 07:06:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\Routing\RouteCollection' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/Tests/Fixtures/with_define_path_variable.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/Tests/Fixtures/with_define_path_variable.php on line 5
+[09-Aug-2019 07:06:10 UTC] PHP Fatal error:  Class 'Symfony\Component\Routing\Matcher\UrlMatcher' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/Tests/Fixtures/RedirectableUrlMatcher.php on line 20
+[16-Sep-2019 20:59:20 UTC] PHP Fatal error:  Class 'Symfony\Component\Routing\CompiledRoute' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/Tests/Fixtures/CustomCompiledRoute.php on line 16
+[17-Sep-2019 10:22:57 UTC] PHP Fatal error:  Class 'Symfony\Component\Routing\CompiledRoute' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/Tests/Fixtures/CustomCompiledRoute.php on line 16

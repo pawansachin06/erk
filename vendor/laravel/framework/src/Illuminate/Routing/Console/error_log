@@ -1,0 +1,2 @@
+[09-Aug-2019 07:49:19 UTC] PHP Fatal error:  Class 'Illuminate\Console\GeneratorCommand' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php on line 7
+[09-Aug-2019 07:50:41 UTC] PHP Fatal error:  Class 'Illuminate\Console\GeneratorCommand' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php on line 10

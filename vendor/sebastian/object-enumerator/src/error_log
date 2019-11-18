@@ -1,0 +1,1 @@
+[09-Aug-2019 07:11:02 UTC] PHP Fatal error:  Interface 'SebastianBergmann\ObjectEnumerator\Exception' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/sebastian/object-enumerator/src/InvalidArgumentException.php on line 13

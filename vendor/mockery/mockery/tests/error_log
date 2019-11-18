@@ -1,0 +1,4 @@
+[09-Aug-2019 09:07:01 UTC] PHP Fatal error:  Uncaught Exception: Please run "php composer.phar install --dev" in root directory to setup unit test dependencies before running the tests in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mockery/mockery/tests/Bootstrap.php:39
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mockery/mockery/tests/Bootstrap.php on line 39

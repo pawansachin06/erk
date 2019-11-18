@@ -1,0 +1,1 @@
+[09-Aug-2019 08:13:10 UTC] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Session/Console/SessionTableCommand.php on line 9

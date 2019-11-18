@@ -1,0 +1,2 @@
+[09-Aug-2019 07:36:09 UTC] PHP Fatal error:  Interface 'Ramsey\Uuid\Builder\UuidBuilderInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/ramsey/uuid/src/Builder/DefaultUuidBuilder.php on line 25
+[09-Aug-2019 07:41:11 UTC] PHP Fatal error:  Interface 'Ramsey\Uuid\Builder\UuidBuilderInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/ramsey/uuid/src/Builder/DegradedUuidBuilder.php on line 24

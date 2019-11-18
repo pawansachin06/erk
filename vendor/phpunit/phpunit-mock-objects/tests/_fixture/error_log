@@ -1,0 +1,1 @@
+[09-Aug-2019 11:21:55 UTC] PHP Fatal error:  Interface 'MockTestInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpunit/phpunit-mock-objects/tests/_fixture/AbstractMockTestClass.php on line 2

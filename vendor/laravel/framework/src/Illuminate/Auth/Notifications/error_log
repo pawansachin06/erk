@@ -1,0 +1,1 @@
+[09-Aug-2019 07:55:35 UTC] PHP Fatal error:  Class 'Illuminate\Notifications\Notification' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Auth/Notifications/ResetPassword.php on line 8

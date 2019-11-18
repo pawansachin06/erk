@@ -1,0 +1,2 @@
+[09-Aug-2019 07:14:35 UTC] PHP Fatal error:  Interface 'SebastianBergmann\GlobalState\TestFixture\BlacklistedInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/sebastian/global-state/tests/_fixture/BlacklistedImplementor.php on line 15
+[09-Aug-2019 07:14:40 UTC] PHP Fatal error:  Class 'SebastianBergmann\GlobalState\TestFixture\BlacklistedClass' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/sebastian/global-state/tests/_fixture/BlacklistedChildClass.php on line 15

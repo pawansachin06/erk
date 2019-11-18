@@ -1,0 +1,2 @@
+[09-Aug-2019 08:43:10 UTC] PHP Fatal error:  Class 'Hamcrest\TypeSafeMatcher' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Number/IsCloseTo.php on line 14
+[09-Aug-2019 08:43:11 UTC] PHP Fatal error:  Class 'Hamcrest\TypeSafeMatcher' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Number/OrderingComparison.php on line 11

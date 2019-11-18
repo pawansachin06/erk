@@ -1,0 +1,1 @@
+[09-Aug-2019 11:24:48 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mockery/mockery/tests/Mockery/Test/Generator/MockConfigurationBuilderTest.php on line 8

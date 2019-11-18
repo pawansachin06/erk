@@ -1,0 +1,2 @@
+[09-Aug-2019 11:43:46 UTC] PHP Fatal error:  Interface 'Swift_Plugins_Logger' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/EchoLogger.php on line 16
+[09-Aug-2019 11:43:53 UTC] PHP Fatal error:  Interface 'Swift_Plugins_Logger' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/ArrayLogger.php on line 16

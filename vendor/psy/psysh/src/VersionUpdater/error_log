@@ -1,0 +1,3 @@
+[09-Aug-2019 08:26:25 UTC] PHP Fatal error:  Interface 'Psy\VersionUpdater\Checker' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/psy/psysh/src/VersionUpdater/NoopChecker.php on line 19
+[09-Aug-2019 08:26:36 UTC] PHP Fatal error:  Interface 'Psy\VersionUpdater\Checker' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/psy/psysh/src/VersionUpdater/GitHubChecker.php on line 16
+[09-Aug-2019 08:26:41 UTC] PHP Fatal error:  Class 'Psy\VersionUpdater\GitHubChecker' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php on line 14

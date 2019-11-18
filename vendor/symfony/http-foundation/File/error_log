@@ -1,0 +1,2 @@
+[09-Aug-2019 07:37:57 UTC] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\File\File' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/http-foundation/File/Stream.php on line 19
+[09-Aug-2019 07:38:07 UTC] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\File\File' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/http-foundation/File/UploadedFile.php on line 25

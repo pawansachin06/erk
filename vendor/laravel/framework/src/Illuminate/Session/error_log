@@ -1,0 +1,5 @@
+[09-Aug-2019 07:45:18 UTC] PHP Fatal error:  Interface 'Illuminate\Session\ExistenceAwareInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Session/DatabaseSessionHandler.php on line 13
+[09-Aug-2019 07:45:23 UTC] PHP Fatal error:  Class 'Illuminate\Session\Store' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Session/EncryptedStore.php on line 9
+[09-Aug-2019 07:45:24 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Session\Session' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Session/Store.php on line 11
+[09-Aug-2019 07:45:25 UTC] PHP Fatal error:  Class 'Illuminate\Support\Manager' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Session/SessionManager.php on line 8
+[09-Aug-2019 07:45:30 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Session/SessionServiceProvider.php on line 8

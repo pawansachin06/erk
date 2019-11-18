@@ -1,0 +1,4 @@
+[09-Aug-2019 08:22:25 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Mail/MailServiceProvider.php on line 10
+[09-Aug-2019 08:22:28 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Mail\Mailable' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Mail/Mailable.php on line 15
+[09-Aug-2019 08:22:37 UTC] PHP Fatal error:  Trait 'Illuminate\Support\Traits\Macroable' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php on line 20
+[09-Aug-2019 08:22:38 UTC] PHP Fatal error:  Class 'Illuminate\Support\Manager' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Mail/TransportManager.php on line 20

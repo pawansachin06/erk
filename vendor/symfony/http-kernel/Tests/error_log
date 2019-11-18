@@ -1,0 +1,6 @@
+[09-Aug-2019 06:48:08 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/http-kernel/Tests/KernelTest.php on line 32
+[09-Aug-2019 06:49:30 UTC] PHP Fatal error:  Class 'Symfony\Component\HttpKernel\HttpKernel' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/http-kernel/Tests/TestHttpKernel.php on line 21
+[09-Aug-2019 06:50:03 UTC] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/http-kernel/Tests/Logger.php on line 16
+[09-Aug-2019 06:50:44 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/http-kernel/Tests/UriSignerTest.php on line 17
+[09-Aug-2019 06:50:47 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/http-kernel/Tests/HttpKernelTest.php on line 31
+[09-Aug-2019 06:51:56 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/http-kernel/Tests/ClientTest.php on line 25

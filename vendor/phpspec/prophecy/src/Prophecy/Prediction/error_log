@@ -1,0 +1,4 @@
+[09-Aug-2019 10:22:45 UTC] PHP Fatal error:  Interface 'Prophecy\Prediction\PredictionInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpspec/prophecy/src/Prophecy/Prediction/CallPrediction.php on line 27
+[09-Aug-2019 10:23:56 UTC] PHP Fatal error:  Interface 'Prophecy\Prediction\PredictionInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpspec/prophecy/src/Prophecy/Prediction/NoCallsPrediction.php on line 25
+[09-Aug-2019 10:24:39 UTC] PHP Fatal error:  Interface 'Prophecy\Prediction\PredictionInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpspec/prophecy/src/Prophecy/Prediction/CallbackPrediction.php on line 25
+[09-Aug-2019 10:24:49 UTC] PHP Fatal error:  Interface 'Prophecy\Prediction\PredictionInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpspec/prophecy/src/Prophecy/Prediction/CallTimesPrediction.php on line 28

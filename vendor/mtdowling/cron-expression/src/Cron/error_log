@@ -1,0 +1,7 @@
+[09-Aug-2019 08:09:25 UTC] PHP Fatal error:  Class 'Cron\AbstractField' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mtdowling/cron-expression/src/Cron/MonthField.php on line 10
+[09-Aug-2019 08:09:40 UTC] PHP Fatal error:  Class 'Cron\AbstractField' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mtdowling/cron-expression/src/Cron/MinutesField.php on line 11
+[09-Aug-2019 08:10:26 UTC] PHP Fatal error:  Interface 'Cron\FieldInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mtdowling/cron-expression/src/Cron/AbstractField.php on line 8
+[09-Aug-2019 08:10:38 UTC] PHP Fatal error:  Class 'Cron\AbstractField' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mtdowling/cron-expression/src/Cron/HoursField.php on line 11
+[09-Aug-2019 08:11:00 UTC] PHP Fatal error:  Class 'Cron\AbstractField' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mtdowling/cron-expression/src/Cron/YearField.php on line 11
+[09-Aug-2019 08:11:10 UTC] PHP Fatal error:  Class 'Cron\AbstractField' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mtdowling/cron-expression/src/Cron/DayOfWeekField.php on line 22
+[09-Aug-2019 08:11:12 UTC] PHP Fatal error:  Class 'Cron\AbstractField' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/mtdowling/cron-expression/src/Cron/DayOfMonthField.php on line 25

@@ -1,0 +1,4 @@
+[09-Aug-2019 07:34:17 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Support\Htmlable' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Pagination/AbstractPaginator.php on line 14
+[09-Aug-2019 07:34:19 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Pagination/PaginationServiceProvider.php on line 7
+[09-Aug-2019 07:34:21 UTC] PHP Fatal error:  Class 'Illuminate\Pagination\AbstractPaginator' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Pagination/Paginator.php on line 15
+[09-Aug-2019 07:34:25 UTC] PHP Fatal error:  Class 'Illuminate\Pagination\AbstractPaginator' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Pagination/LengthAwarePaginator.php on line 15

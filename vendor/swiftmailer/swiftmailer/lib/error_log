@@ -1,0 +1,12 @@
+[09-Aug-2019 08:59:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Swift_DependencyContainer' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/dependency_maps/cache_deps.php:3
+Stack trace:
+#0 /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/swift_init.php(22): require()
+#1 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/dependency_maps/cache_deps.php on line 3
+[09-Aug-2019 09:00:02 UTC] PHP Warning:  require(/home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/Swift.php): failed to open stream: No such file or directory in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/swift_required_pear.php on line 20
+[09-Aug-2019 09:00:02 UTC] PHP Warning:  require(/home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/Swift.php): failed to open stream: No such file or directory in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/swift_required_pear.php on line 20
+[09-Aug-2019 09:00:02 UTC] PHP Fatal error:  require(): Failed opening required '/home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/Swift.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/swift_required_pear.php on line 20
+[09-Aug-2019 09:00:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Swift_Preferences' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/preferences.php:9
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/swiftmailer/swiftmailer/lib/preferences.php on line 9

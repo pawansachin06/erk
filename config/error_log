@@ -1,0 +1,48 @@
+[09-Aug-2019 06:00:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/app.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/app.php on line 15
+[09-Aug-2019 06:00:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/view.php on line 17
+[09-Aug-2019 06:00:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/cache.php on line 18
+[09-Aug-2019 06:00:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/mail.php on line 19
+[09-Aug-2019 06:00:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/queue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/queue.php on line 18
+[09-Aug-2019 06:00:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/database.php on line 16
+[09-Aug-2019 06:00:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/services.php on line 18
+[09-Aug-2019 06:00:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/filesystems.php on line 16
+[09-Aug-2019 06:00:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/broadcasting.php on line 18
+[09-Aug-2019 06:01:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/session.php on line 19
+[23-Aug-2019 17:35:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/database.php on line 16
+[23-Aug-2019 17:35:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/config/filesystems.php on line 16

@@ -1,0 +1,4 @@
+[09-Aug-2019 11:44:51 UTC] PHP Fatal error:  Uncaught Exception: PHPUnit suppresses exceptions thrown outside of test case function in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpunit/phpunit/tests/Regression/GitHub/873/Issue873Test.php:7
+Stack trace:
+#0 {main}
+  thrown in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpunit/phpunit/tests/Regression/GitHub/873/Issue873Test.php on line 7

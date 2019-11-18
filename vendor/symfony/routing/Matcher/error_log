@@ -1,0 +1,4 @@
+[09-Aug-2019 06:44:11 UTC] PHP Fatal error:  Class 'Symfony\Component\Routing\Matcher\UrlMatcher' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php on line 24
+[09-Aug-2019 06:44:13 UTC] PHP Fatal error:  Interface 'Symfony\Component\Routing\Matcher\UrlMatcherInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/Matcher/UrlMatcher.php on line 29
+[09-Aug-2019 06:44:14 UTC] PHP Fatal error:  Class 'Symfony\Component\Routing\Matcher\UrlMatcher' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/Matcher/RedirectableUrlMatcher.php on line 20
+[09-Aug-2019 06:44:18 UTC] PHP Fatal error:  Interface 'Symfony\Component\Routing\RequestContextAwareInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/Matcher/UrlMatcherInterface.php on line 24

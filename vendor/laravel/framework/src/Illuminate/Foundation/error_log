@@ -1,0 +1,1 @@
+[16-Sep-2019 21:19:50 UTC] PHP Fatal error:  Class 'Illuminate\Container\Container' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 24

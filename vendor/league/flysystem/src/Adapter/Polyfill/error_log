@@ -1,0 +1,1 @@
+[09-Aug-2019 08:01:53 UTC] PHP Fatal error:  Trait 'League\Flysystem\Adapter\Polyfill\StreamedReadingTrait' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/league/flysystem/src/Adapter/Polyfill/StreamedTrait.php on line 7

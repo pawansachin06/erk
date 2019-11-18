@@ -1,0 +1,2 @@
+[09-Aug-2019 09:01:49 UTC] PHP Fatal error:  Class 'Hamcrest\AbstractMatcherTest' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Collection/IsEmptyTraversableTest.php on line 6
+[09-Aug-2019 09:02:18 UTC] PHP Fatal error:  Class 'Hamcrest\AbstractMatcherTest' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Collection/IsTraversableWithSizeTest.php on line 4

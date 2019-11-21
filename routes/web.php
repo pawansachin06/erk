@@ -15,11 +15,13 @@
 //    return view('welcome');
 //});
 Route::get('/', 'FrontController@front');
+Route::get('/admin-dashboard', 'AdminController@admin');
+Route::get('/about', 'FrontController@about');
 Auth::routes();
 
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/admin','admin\dashboard\DashboardController@index');
+Route::get('/admin', 'admin\dashboard\DashboardController@index');
 Route::get('/logout', 'HomeController@logout');
 
 Route::get('/admin/medical-products', 'admin\medical\MedicalProductController@index');
@@ -89,6 +91,24 @@ Route::get('/admin/slider/edit/{id}', 'admin\slider\SliderController@edit');
 Route::post('/admin/slider/update', 'admin\slider\SliderController@update');
 
 
+Route::get('/admin/website_dynamics/view', 'admin\website_dynamics\WebsiteController@index');
+Route::get('/admin/website_dynamics/create', 'admin\website_dynamics\WebsiteController@create');
+Route::post('/admin/website_dynamics/upload-image', 'admin\website_dynamics\WebsiteController@uploadBlogImage');
+Route::post('/admin/website_dynamics/store', 'admin\website_dynamics\WebsiteController@store');
+Route::get('/admin/website_dynamics/loadAllWebsite', 'admin\website_dynamics\WebsiteController@loadAllWebsite');
+Route::get('/admin/website_dynamics/delete/{id}', 'admin\website_dynamics\WebsiteController@delete');
+Route::get('/admin/website_dynamics/edit/{id}', 'admin\website_dynamics\WebsiteController@edit');
+Route::post('/admin/website_dynamics/update', 'admin\website_dynamics\WebsiteController@update');
+
+
+Route::post('/admin/about/upload-image', 'admin\about\AboutController@uploadBlogImage');
+Route::post('/admin/about/store', 'admin\about\AboutController@store');
+Route::get('/admin/about/loadAllAbout', 'admin\about\AboutController@loadAllAbout');
+Route::get('/admin/about/delete/{id}', 'admin\about\AboutController@delete');
+Route::get('/admin/about/edit/{id}', 'admin\about\AboutController@edit');
+Route::post('/admin/about/update', 'admin\about\AboutController@update');
+
+
 Route::get('/admin/other/category', 'admin\other\CategoryController@index');
 Route::get('/admin/other/category-create', 'admin\other\CategoryController@create');
 Route::post('/admin/other/category-store', 'admin\other\CategoryController@store');
@@ -115,6 +135,7 @@ Route::post('/admin/email/update', 'admin\admin_email\EmailController@update');
 
 Route::get('/medical-products', 'customer\medical\MedicalProductController@index');
 Route::get('/medical-products/post/id/{id}', 'customer\medical\MedicalProductController@singlePost');
+Route::get('/medical-products/post', 'customer\medical\MedicalProductController@allPost');
 Route::get('/health-info', 'customer\health\HealthInfoController@index');
 Route::get('/health/category/id/{id}', 'customer\health\HealthInfoController@post');
 Route::get('/health/post/id/{id}', 'customer\health\HealthInfoController@singlePost');

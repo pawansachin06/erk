@@ -1,4 +1,5 @@
 <ul style="list-style: none;padding-left: 0;">
+    <li class="text-center"><span>目录</span></li>
     <?php
     foreach ($category as $cat) {
         ?>

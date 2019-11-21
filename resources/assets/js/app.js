@@ -46,6 +46,12 @@ Vue.component('slider-view-component', require('./components/admin/slider/Slider
 Vue.component('slider-add-component', require('./components/admin/slider/SliderAddComponent.vue'));
 Vue.component('slider-edit-component', require('./components/admin/slider/SliderEditComponent.vue'));
 
+Vue.component('websitedynamics-view-component', require('./components/admin/website_dynamics/WebsiteDynamicsViewComponent.vue'));
+Vue.component('websitedynamics-add-component', require('./components/admin/website_dynamics/WebsiteDynamicsAddComponent.vue'));
+Vue.component('websitedynamics-edit-component', require('./components/admin/website_dynamics/WebsiteDynamicsEditComponent.vue'));
+
+Vue.component('about-edit-component', require('./components/admin/about/AboutEditComponent.vue'));
+
 Vue.component('other-category-view-component', require('./components/admin/other/category/CategoryViewComponent.vue'));
 Vue.component('other-category-add-component', require('./components/admin/other/category/CategoryAddComponent.vue'));
 Vue.component('other-category-edit-component', require('./components/admin/other/category/CategoryEditComponent.vue'));
@@ -54,6 +60,13 @@ Vue.component('other-post-add-component', require('./components/admin/other/post
 Vue.component('other-post-edit-component', require('./components/admin/other/post/PostEditComponent.vue'));
 Vue.component('email-edit-component', require('./components/admin/admin_email/EmailEditComponent.vue'));
 Vue.component('email-view-component', require('./components/admin/admin_email/EmailViewComponent.vue'));
+
+
+
+
+
+
+
 
 const app = new Vue({
     el: '#app'

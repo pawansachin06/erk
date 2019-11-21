@@ -16,13 +16,22 @@ class MedicalProductController extends Controller {
         return view('customer.medical.view', compact('medical'));
     }
 
+    public function allPost() {
+        $medical = Medical::all();
+        $category = Category::all();
+        $news_category = NewsCategory::all();
+//        $single_post = Medical::find($id);
+        $other_category = OtherCategory::all();
+        return view('customer.medical.product', compact(['medical', 'category', 'news_category', 'other_category']));
+    }
+
     public function singlePost($id) {
         $allmedical = Medical::all();
         $category = Category::all();
         $news_category = NewsCategory::all();
         $single_post = Medical::find($id);
         $other_category = OtherCategory::all();
-        return view('customer.medical.single', compact(['allmedical','single_post','category','news_category', 'other_category']));
+        return view('customer.medical.single', compact(['allmedical', 'single_post', 'category', 'news_category', 'other_category']));
     }
 
 }

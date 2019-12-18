@@ -3,12 +3,17 @@
         <div class="form-group">
             <label for="title">Name:</label>
             <input v-validate="'required'" type="text" class="form-control" name="name" placeholder="Enter name" v-model="doctor_data.name">
-                <span class="text-danger">{{ errors.first('name') }}</span>
+            <span class="text-danger">{{ errors.first('name') }}</span>
         </div>
         <div class="form-group">
             <label for="title">Title:</label>
             <input v-validate="'required'" type="text" class="form-control" name="title" placeholder="Enter title" v-model="doctor_data.title">
-                <span class="text-danger">{{ errors.first('title') }}</span>
+            <span class="text-danger">{{ errors.first('title') }}</span>
+        </div>
+        <div class="form-group">
+            <label for="title">Company Name:</label>
+            <input v-validate="'required'" type="text" class="form-control" name="company_name" placeholder="Enter Company Name" v-model="doctor_data.company_name">
+            <span class="text-danger">{{ errors.first('company_name') }}</span>
         </div>
         <div class="form-group">
             <label for="category">Description:</label>
@@ -17,7 +22,7 @@
         </div>
         <div class="form-group" v-if="blog_detail.image == ''">
             <label class="control-label">Image</label>
-            <div class="control_element"> 
+            <div class="control_element">
                 <div class="box">
                     <form id="uploadForm" enctype="multipart/form-data" v-on:change="uploadImage()">
                         <input type="file" name="fileupload" id="fileupload" class="inputfile inputfile-6"/>
@@ -50,7 +55,8 @@ export default {
                 name: "",
                 title: "",
                 description: "",
-                image_url: ""
+                image_url: "",
+                company_name: ""
             },
             site_url: site_root,
             blog_detail: {
@@ -101,7 +107,8 @@ export default {
                             name: "",
                             title: "",
                             description: "",
-                            image_url: ""
+                            image_url: "",
+                            company_name: ""
                         };
                         thisObject.blog_detail = {
                             image: ""

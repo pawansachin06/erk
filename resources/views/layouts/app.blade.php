@@ -16,6 +16,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script src="{{ asset('public/js/app.js') }}"></script>
         <script src="{{ asset('public/js/slick.min.js') }}" type="text/javascript"></script>
+        <script src="//cdn.ckeditor.com/4.11.3/standard/ckeditor.js"></script>
         <script src="{{ asset('public/js/custom.js') }}" type="text/javascript"></script>
     </head>
     <body>
@@ -51,19 +52,6 @@
             @yield('content')
         </div>
 
-<!--        <script type="text/javascript">
-            $(document).ready(function () {
-                $('.home-slider').slick({
-                    infinite: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 2000,
-                    dots: false,
-                    arrows: false
-                });
-            });
-        </script>-->
         <script type="text/javascript">
             $(document).ready(function () {
                 $('.doctor-slider5').slick({
@@ -111,6 +99,9 @@
             (function ($)
             {
                 $(document).ready(function () {
+                    $(".navbar-toggler").click(function () {
+                        $(".navbar-nav.nav.nav-mobile").toggleClass("nav-mobile-open");
+                    });
                     mainHeight();
                     function mainHeight() {
                         var wH = $(window).height();

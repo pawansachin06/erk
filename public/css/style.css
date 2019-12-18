@@ -3,22 +3,20 @@
 *:focus{box-shadow:none !important;outline:none !important;}
 .cp{cursor:pointer;}
 a:hover, a:focus{text-decoration: none;box-shadow: none;}
-/*#app-navbar-collapse.collapse {display: block !important;}*/
 nav.navbar.app-sidebar{overflow: hidden;justify-content: flex-start !important;padding: 70px 0 0;align-items: flex-start;}
 body, html{height: 100%}
 body #app{background: #fff;}
-.laravel-login{min-height:100vh;display: flex;width: 100%;flex-direction: column;justify-content: center;height: 100%;}
-.login-page {max-width: 460px;margin: 0px auto 0;}
-.login-body-width {max-width: 326px;min-width: 326px;margin: 0 auto;}
 .login-page input {width: 100%;background: #fafafa !important;border: 1px solid #ccc !important;border-radius: 0;height: 45px;}
-.login-body-width form {max-width: 537px;margin: 0 auto;position: relative;}
+.login-body-width form {margin-bottom: 30px;}
 .login-page input[type="checkbox"] {height: auto;}
 .stay-and-forget .regular-checkbox, .stay-forget .regular-checkbox {opacity: 0 !important;position: absolute;left: 0;z-index: 99;top: 0;}
-.laravel-login .panel-heading{margin-bottom: 30px;border:none;color: #4d4d4d;font-size: 45px;font-weight: 600;line-height: 63px;letter-spacing: 0.45px;}
-.stay-forget {width: 100%;margin-top: 18px;}
-.stay-forget .checkbox {width: 50%;}
+.laravel-login .panel-heading {margin-bottom: 10px;border: none;color: #4d4d4d;font-size: 20px;font-weight: 600;line-height: 20px;letter-spacing: 0.5px;text-align: left !important;padding-left: 0;}
+/*.stay-forget .checkbox {min-height: 0 !important;}*/
+.stay-forget{display: flex;align-items: center;}
 .stay-and-forget .regular-checkbox, .stay-forget .regular-checkbox {opacity: 0 !important;position: absolute;left: 0;z-index: 99;top: 0;}
-.login-page input {width: 100%;background: #fafafa !important;border: 1px solid #ccc !important;border-radius: 0;height: 45px;}
+#loginModal .login-page input {font-size: 16px;margin-bottom: 20px;width: 100%;background: #fff !important;border: 1px solid #ccc !important;border-radius: 5px;height: 45px;padding-left: 40px;}
+#loginModal .login-page input:focus{background: #fff !important;}
+.modal-backdrop.in {opacity: 0.5;}
 .regular-checkbox + label {margin-bottom: 0;background-color: #fafafa;border: 1px solid #979797;padding: 9px;border-radius: 0px;display: inline-block;position: relative;}
 .stay-forget .checkbox span {margin-left: 10px;line-height: 17px;color: #9b9b9b;font-size: 14px;font-weight: 400;letter-spacing: 0.3px;display: inline-block;vertical-align: top;margin-top: 3px;}
 .stay-forget .forget-pass {width: 50%;}
@@ -26,23 +24,24 @@ body #app{background: #fff;}
 .regular-checkbox:checked + label:after {content: '\2714';font-size: 14px;position: absolute;top: -0.5px;left: 4px;color: #99a1a7;}
 .regular-checkbox:checked + label {background-color: #e9ecee;border: 1px solid #adb8c0;color: #99a1a7;}
 .checkbox {position: relative;display: block;}
-.login-btn-id > button {background: #2b96e9 !important;border: none !important;border-radius: 0 !important;}
+.login-btn-id > button {.login-btn-id > button {background: #3994e9 !important;border: none !important;border-radius: 5px !important;}}
 .create-an-account {display: inline-block;width: 100%;margin-top: 33px;text-align: center;}
 .create-an-account a {color: #2481e3;font-size: 14px;font-weight: 400;line-height: 24px;color: #4d4d4d;letter-spacing: 0.44px;}
 .create-an-account a > span {color: #2b96e9;}
 .laravel-login .form-horizontal .control-label {font-size: 16px;}
-.laravel-login .form-horizontal .form-control {font-size: 16px;}
+.login-page input[type='password']{margin-bottom: 0;}
 .laravel-login .laravel-login-inner .panel{border:none !important;box-shadow: none;}
 .laravel-login .laravel-login-inner .login-btn-wrapper button{border:1px solid #00BFFF;background-color: #00BFFF;font-size: 16px;padding: 4px 18px;}
 .login-btn-wrapper .btn-link{font-size: 14px;}
 .login-btn-wrapper .btn-link:hover{text-decoration: none;}
 .laravel-login .checkbox input[type="checkbox"]{margin-top: 6px;}
-.laravel-login .checkbox{margin: 10px 0;}
-.laravel-login .checkbox{margin: 10px 0;}
 .after-login .panel{margin-top: 100px;border:none;}
 .after-login .panel .panel-heading, .after-login .panel .panel-body{font-size: 14px;}
 .dashboard-after-login {background: none !important;}
 .dashboard-after-login img{max-width: 100px;margin-bottom: 30px;}
+.login-page .input-field:nth-child(2):after{position: absolute;content: '';left: 10px;top: 0;width:20px;height:20px;background: url(../images/placeholder-icon1.png) center center;top:50%;background-repeat:no-repeat;background-size: cover;transform: translateY(-50%);}
+.login-page .input-field:nth-child(3):after{position: absolute;content: '';left: 10px;top: 0;width:20px;height:20px;background: url(../images/placeholder-icon2.png) center center;top:50%;background-repeat:no-repeat;background-size: cover;transform: translateY(-50%);}
+.login-page .input-field{position: relative;}
 .box-wrap {font-size: 20px;}
 .admin-profile a:hover{text-decoration:none !important;}
 .app-header {position: fixed;left: 0;right: 0;top: 0;width: 100%;display: -webkit-box;display: -ms-flexbox;display: flex;background-color: #00BFFF;z-index: 1030;padding-right: 15px;}
@@ -156,31 +155,36 @@ body.sidenav-toggled .app-sidebar .navbar-nav > li > a.app-menu__item{padding: 1
 Register Page
 *************************/
 
+#regModal .modal-header{border:none;padding:12px 12px 12px 0  !important;}
+#loginModal .modal-header{border:none;padding:12px 0  !important;}
 
-.register-page .signup-heading-content .page-title {margin-top: 0;padding-top: 0;}
-.container.register-page{max-width: 1366px;margin: 0 auto !Important;padding: 0;}
+.register-page .signup-heading-content .page-title {padding-left: 15px;margin-top: 0;padding-top: 0;}
 .register-page{background: #fff;}
-.register-account-container {display: flex;flex-direction: column;justify-content: center;align-items: center;clear: both;min-height: calc(100vh - 136px);}
 .signup-heading-content {max-width: 720px;width: 100%;margin: 0 auto;text-align: center;}
-.signup-heading-content .page-title {margin: 0;color: #4d4d4d !important;letter-spacing: 0.45px;font-size: 45px;font-weight: 600;line-height: 60px;margin-top: 47px;margin-bottom: 10px;padding-top: 47px;}
-.register-account-container .register-account-inner{max-width: 460px;margin: 0 auto;}
+.signup-heading-content .page-title {margin: 0;color: #4d4d4d !important;letter-spacing: 0.5px;font-size: 20px;font-weight: 600;line-height: 20px;}
 .stay-and-forget {display: inline-block;width: 100%;margin-top: 0;margin-bottom: 15px;}
 .stay-and-forget .checkbox {padding: 0;align-items: center;justify-content: space-between;display: flex;}
 .stay-and-forget .checkbox input {vertical-align: middle;width: 20px;height: 20px;border: 1px solid #d7d7d7 !important;border-radius: 0;margin-left: 0;margin-top: 6px;color: #2b96e9;font-size: 14px;font-weight: 400;line-height: 24px;letter-spacing: 0.44px;}
 .register-page .regular-checkbox:checked + label:after {top: 1px;}
-.regular-checkbox:checked + label:after {content: '\2714';font-size: 14px;position: absolute;top: -2px;left: 4px;color: #99a1a7;}
+.regular-checkbox:checked + label:after {content: '\2714';font-size: 14px;position: absolute;top: 0;left: 4px;color: #99a1a7;}
 .checkbox span {margin-left: 10px;line-height: 17px;color: #9b9b9b;font-size: 14px;font-weight: 400;letter-spacing: 0.3px;display: inline-block;vertical-align: top;}
 .form-group.button-wrappers{margin: 0;}
 .form-group.button-wrappers button{width: 100%;}
 .register-page input.regular-checkbox {opacity: 0 !important;}
 .register-page form.form-horizontal input {border-radius: 0;background: #fff !important;border: 1px solid #d4d4d4 !important;height: 45px;line-height: 45px;color: #9b9b9b;font-size: 14px;font-weight: 400;letter-spacing: 0.01px;}
+.signup-img img{max-width:100%;}
+#regModal .modal-dialog{max-width: 750px;}
+#regModal.modal.fade .modal-dialog{transform:none !important;}
+
+#loginModal .modal-dialog{max-width: 750px;}
+#loginModal.modal.fade .modal-dialog{transform:none !important;}
+
 
 
 
 /*************************
 reset-page
 *************************/
-
 
 .reset-page{height: 100vh;display: flex;align-items: center;justify-content: space-between;}
 .recover-container {max-width: 750px;margin: 0 auto;padding: 0;}

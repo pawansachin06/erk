@@ -8,7 +8,7 @@ class Doctor extends Model {
 
     protected $table = 'doctors';
     protected $fillable = [
-        'name', 'title', 'description', 'image'
+        'name', 'title', 'description', 'image', 'company_name'
     ];
 
 }

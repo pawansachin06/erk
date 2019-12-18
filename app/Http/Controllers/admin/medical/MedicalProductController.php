@@ -32,6 +32,7 @@ class MedicalProductController extends Controller {
         $medical->button = $request->button;
         $medical->link = $request->link;
         $medical->image = $request->image_url;
+        $medical->shortdes = $request->short_description;
         $medical->save();
     }
 
@@ -76,6 +77,7 @@ class MedicalProductController extends Controller {
     }
 
     public function update(Request $request) {
+
         $medical = Medical::find($request->id)->update($request->all());
     }
 

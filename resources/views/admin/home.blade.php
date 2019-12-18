@@ -29,9 +29,38 @@
                 <div class="col-md-4 admin-box-inner">
                     <div class="admin-box-innerr">
                         <p class="mb-2"><i aria-hidden="true" class="fa fa-user-md"></i></p>
-                        <p class="mb-0"><a href="{{ url('/admin/doctor/view') }}" class="wht-btn">Famous Doctor</a></p>
+                        <p class="mb-0"><a href="{{ url('/admin/doctor/view') }}" class="wht-btn">Expert/Doctor</a></p>
                     </div>
                 </div>
+                <div class="col-md-4 admin-box-inner">
+                    <div class="admin-box-innerr">
+                        <p class="mb-2"><i aria-hidden="true" class="fa fa-picture-o"></i></p>
+                        <p class="mb-0"><a href="{{ url('/admin/slider/view') }}" class="wht-btn">Home Background</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4 admin-box-inner">
+                    <div class="admin-box-innerr">
+                        <p class="mb-2"><i aria-hidden="true" class="fa fa-envelope-o"></i></p>
+                        <p class="mb-0"><a href="{{ url('/admin/email/view') }}" class="wht-btn">Admin Email</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 row admin-box">
+                <div class="col-md-4 admin-box-inner">
+                    <div class="admin-box-innerr">
+                        <p class="mb-2"><i aria-hidden="true" class="fa fa-file-code-o"></i></p>
+                        <p class="mb-0"><a href="{{ url('/admin/website_dynamics/view') }}" class="wht-btn">Website Dynamics</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4 admin-box-inner">
+                    <div class="admin-box-innerr">
+                        <p class="mb-2"><i aria-hidden="true" class="fa fa-user"></i></p>
+                        <p class="mb-0"><a href="{{ url('/admin/about/edit/1') }}" class="wht-btn">About Us</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 row admin-box">
+                
                 
             </div>
         </div>

@@ -1,27 +1,36 @@
 @extends('layouts.app')
 @section('content')
 @include('header', array('medical' =>$medical,'category'=>$allcategory,'news_category'=>$news_category))
-<div class="site-content category-wrap">
-    <div class="container p-0">
-        <div class="containerBox my-5 p-3 row mx-0">
-            <div class="col-9 rightnav"> 
-                <div class="rightnav-inner"> 
-                    <div class="single-post">        
-                        <h3>{{$single_post->title}}</h3>
-                        <p class="category-name">Category: {{$single_post->category_name['name']}}</p>
-                        <p class="post-time fs-12">| {{$single_post->created_at}}</p>
-                        <div class="post-description fs-16 my-5">{!!$single_post->description!!}</div>
+<div class="site-content category-wrap single-post single-news-post">
+    <div class="single-news-post-inner">
+        <div class="single-banner">
+            <div class="single-banner-content container">
+                <div class="banner-left-content">
+                    <div class="post_image">
+                        <img src="{{url('/storage').'/app/'.$single_post->website_image}}" />
                     </div>
-                    <p class="fs-16">Share to: Tencent Sina Renren.com Mail Favorites Copy URL:<a href="#">More</a></p>
+                    <div class="post_info">
+                        <div class="post_title">
+                            <h2>{{$single_post->title}}</h2>
+                        </div>
+                        <div class="post_description">
+                            <p class="category-name fs-16">Category: {{$single_post->category_name['name']}}</p>
+                            <?php
+                            $date = new DateTime($single_post->created_at);
+                            ?>
+                            <p class="category-name"><span class="fs-16">Created_at: {{$date->format('d-m-Y')}}</span></p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-3 leftnav mr-0 p-0">  
-                <div class="leftnav-innerr">
-                    @include('customer.health.category',array('category' =>$allcategory))            
-                </div>
+        </div>
+        <div class="post-content py-5">
+            <div class="container">
+                <div class="post-description my-5 fs-16">{!!$single_post->description!!}</div>
             </div>
         </div>
     </div>
 </div>
+
 @include('footer')
 @endsection

@@ -1,7 +1,7 @@
 <div class="header navbar">
     <div class="header-container">
         <div class="nav-logo">
-            <a href="<?php echo url('/'); ?>">
+            <a href="<?php echo url('/admin'); ?>">
                 <div class="logo">Erkcloud</div>                
             </a>
         </div>
@@ -64,5 +64,6 @@
                     </li>
                 </ul>    
             </li>
+        </ul> 
     </div>
 </div>

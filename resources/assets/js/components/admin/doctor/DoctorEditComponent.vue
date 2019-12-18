@@ -3,12 +3,17 @@
         <div class="form-group">
             <label for="title">Name:</label>
             <input v-validate="'required'" type="text" class="form-control" name="name" placeholder="Enter title" v-model="doctor_data.name">
-                <span class="text-danger">{{ errors.first('post_title') }}</span>
+            <span class="text-danger">{{ errors.first('post_title') }}</span>
         </div>
         <div class="form-group">
             <label for="title">Title</label>
             <input v-validate="'required'" type="text" class="form-control" name="post_title" placeholder="Enter title" v-model="doctor_data.title">
-                <span class="text-danger">{{ errors.first('post_title') }}</span>
+            <span class="text-danger">{{ errors.first('post_title') }}</span>
+        </div>
+        <div class="form-group">
+            <label for="title">Company Name</label>
+            <input v-validate="'required'" type="text" class="form-control" name="company_name" placeholder="Enter title" v-model="doctor_data.company_name">
+            <span class="text-danger">{{ errors.first('company_name') }}</span>
         </div>
         <div class="form-group">
             <label for="category">Description:</label>
@@ -17,7 +22,7 @@
         </div>
         <div class="form-group" v-if="blog_detail.image == ''">
             <label class="control-label">Image</label>
-            <div class="control_element"> 
+            <div class="control_element">
                 <div class="box">
                     <form id="uploadForm" enctype="multipart/form-data" v-on:change="uploadImage()">
                         <input type="file" name="fileupload" id="fileupload" class="inputfile inputfile-6"/>

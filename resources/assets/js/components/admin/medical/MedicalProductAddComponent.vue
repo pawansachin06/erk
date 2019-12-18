@@ -3,7 +3,7 @@
         <div class="form-group">
             <label for="title">Title:</label>
             <input v-validate="'required'" type="text" class="form-control" name="post_title" placeholder="Enter title" v-model="medical_product.title">
-                <span class="text-danger">{{ errors.first('post_title') }}</span>
+            <span class="text-danger">{{ errors.first('post_title') }}</span>
         </div>
         <div class="form-group">
             <label for="desc">Description:</label>
@@ -11,23 +11,28 @@
             <span class="text-danger">{{ errors.first('description') }}</span>
         </div>
         <div class="form-group">
+            <label for="desc">Short Description:</label>
+            <vue-editor v-validate="'required'" v-model="medical_product.short_description" placeholder="Enter short description" name="short_description"></vue-editor>
+            <span class="text-danger">{{ errors.first('short_description') }}</span>
+        </div>
+        <div class="form-group">
             <label for="desc">Category:</label>
             <input v-validate="'required'" type="text" class="form-control"  placeholder="Enter category" v-model="medical_product.category" name="category">
-                <span class="text-danger">{{ errors.first('category') }}</span>
+            <span class="text-danger">{{ errors.first('category') }}</span>
         </div>
         <div class="form-group">
             <label for="desc">Button :</label>
             <input v-validate="'required'" type="text" class="form-control"  placeholder="Enter button text" v-model="medical_product.button" name="button">
-                <span class="text-danger">{{ errors.first('button') }}</span>
+            <span class="text-danger">{{ errors.first('button') }}</span>
         </div>
         <div class="form-group">
             <label for="desc">Link :</label>
             <input v-validate="'required'" type="text" class="form-control"  placeholder="Enter link" v-model="medical_product.link" name="link">
-                <span class="text-danger">{{ errors.first('link') }}</span>
+            <span class="text-danger">{{ errors.first('link') }}</span>
         </div>
         <div class="form-group" v-if="blog_detail.image == ''">
             <label class="control-label">Image</label>
-            <div class="control_element"> 
+            <div class="control_element">
                 <div class="box">
                     <form id="uploadForm" enctype="multipart/form-data" v-on:change="uploadImage()">
                         <input type="file" name="fileupload" id="fileupload" class="inputfile inputfile-6"/>
@@ -59,11 +64,11 @@
                 medical_product: {
                     title: "",
                     description: "",
-                    description: "",
+                    short_description: "",
                     category: "",
                     button: "",
                     link: "",
-                    image_url: "",
+                    image_url: ""
                 },
                 blog_detail: {
                     image: ""
@@ -111,11 +116,11 @@
                             thisObject.medical_product = {
                                 title: "",
                                 description: "",
-                                description: "",
+                                short_description: "",
                                 category: "",
                                 button: "",
                                 link: "",
-                                image_url: "",
+                                image_url: ""
                             };
                             thisObject.blog_detail = {
                                 image: ""

@@ -20,7 +20,7 @@
                         <tbody> 
                             <tr v-for="(s,i) in slider_data">
                                 <td>{{i+1}}</td>
-                                <td><img style="max-width: 200px;" :src="site_url + '/../storage/app/' + s.image"/></td>
+                                <td><img style="max-width: 200px;" :src="site_url + '/storage/app/' + s.image"/></td>
                                 <td class="text-left font-size-18">
                                     <a :href="site_url+'/admin/slider/edit/'+s.id" class="text-gray m-r-15"><i class="fa fa-pencil" aria-hidden="true"></i></a>
                                     <a href="#" class="btn text-gray" @click.prevent="deleteSlider(s.id)"><i class="fa fa-trash" aria-hidden="true"></i></a>

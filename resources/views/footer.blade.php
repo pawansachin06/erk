@@ -1,5 +1,5 @@
 <footer class="footer">    
-        <div class="footer-content" style="background: #1f1f1f;">
+        <div class="footer-content">
             <div class="container">
             <div class="footer-inner" style="padding: 15px 0;">      
                 <ul class="pl-0">            

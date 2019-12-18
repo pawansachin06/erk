@@ -13,15 +13,18 @@ use App\NewsCategory;
 use App\OtherCategory;
 use App\WebsiteDynamics;
 use App\About;
+use App\Post;
 
 class FrontController extends Controller {
 
     public function front() {
         $about = new About();
         $news_post = new NewsPost();
-        $news_post = $news_post->orderBy('created_at', 'DESC')->limit(3)->get();
+        $news_post = $news_post->orderBy('created_at', 'DESC')->limit(5)->get();
+        $posts = new Post();
+        $posts = $posts->orderBy('created_at', 'DESC')->limit(5)->get();
         $website = new WebsiteDynamics();
-        $website = $website->orderBy('created_at', 'DESC')->limit(3)->get();
+        $website = $website->orderBy('created_at', 'DESC')->limit(5)->get();
         $medical = new Medical();
         $medical = $medical->orderBy('created_at', 'DESC')->get();
         $slider = new Slider();
@@ -33,7 +36,7 @@ class FrontController extends Controller {
         $other_category = new OtherCategory();
         $other_category = $other_category->orderBy('created_at', 'ASC')->get();
         $category = Category::with('posts_name')->get();
-        return view('front', compact('website', 'category', 'news_post', 'medical', 'slider', 'doctor', 'news_category', 'other_category'));
+        return view('front', compact('website', 'category', 'news_post', 'medical', 'slider', 'doctor', 'news_category', 'other_category', 'posts'));
     }
 
     public function about() {

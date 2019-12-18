@@ -8,7 +8,7 @@ class Medical extends Model {
 
     protected $table = "medicals";
     protected $fillable = [
-        'title', 'description', 'category', 'button', 'link', 'image'
+        'title', 'description', 'category', 'button', 'link', 'image', 'shortdes'
     ];
 
 }

@@ -22,7 +22,7 @@
             <div class="container">
                 <div class="product-services-content-wrapper upper-part">
                     <div class="upper-part-inner">
-                        <h2 class="text-uppercase">医学产品</h2>
+                        <h2 class="text-uppercase">产品介绍</h2>
                         <p class="text-uppercase f-14">product introduction</p>
                     </div>
                 </div>
@@ -44,8 +44,8 @@
                                         </div>
                                         <div class="overlay">
                                             <div class="overlay-text">
-                                                <p>Lorem Ipsum is simply dummy text of the printing.</p>
-                                                <button>Read More</button>
+                                                <p><?php echo $m['shortdes'] ?></p>
+                                                <button>查看详情 > </button>
                                             </div>
                                         </div>
                                     </a>
@@ -63,7 +63,7 @@
         <div class="container">
             <div class="upper-part">
                 <div class="upper-part-inner">
-                    <h2 class="text-uppercase">专家风采</h2>
+                    <h2 class="text-uppercase">专家简介</h2>
                     <p class="text-uppercase f-14">expert introduction</p>
                 </div>
             </div>
@@ -71,10 +71,17 @@
                 <?php foreach ($doctor as $doc) { ?>
                     <div class="doctor-slider-item px-3">
                         <div class="doctor-slider-item-inner">
-                            <a href="{{url('doctor/id/'.$doc->id)}}">
-                                <img src="{{url('/storage').'/app/'.$doc['image']}}" />
-                            </a>
-                            <p class="fs-16"><a href="{{url('doctor/id/'.$doc->id)}}"><?php echo $doc['name'] ?> </a></p>
+                            <div class="doctor-details">
+                                <a href="{{url('doctor/id/'.$doc->id)}}">
+                                    <img src="{{url('/storage').'/app/'.$doc['image']}}" />
+                                </a>
+                                <p class="fs-14 doc-name"><a href="{{url('doctor/id/'.$doc->id)}}"><?php echo $doc['name'] ?> </a></p>
+                                <p class="fs-16 mt-3 doc-title">{{$doc['title']}} </p>
+                                <p class="fs-16 mt-3 doc-company">{{$doc['company_name']}} </p>
+                            </div>
+                            <div class="chat-icon">
+                                <a href="#"><i class="fa fa-commenting chat-icon-img" aria-hidden="true"></i></a>
+                            </div>
                         </div>
                     </div>
                     <?php
@@ -83,12 +90,13 @@
             </div>
         </div>
     </section>
+
     <div class="news-section">
         <div class="container">
             <div class="news-section-inner text-center">
                 <div class="news-section-innerr">
-                    <h2>新闻</h2>
-                    <p class="text-uppercase f-14">news bulletin</p>
+                    <h2>健康自测</h2>
+                    <p class="text-uppercase f-14">News Bulletin</p>
                 </div>
             </div>
             <div class="d-flex flex-wrap justify-content-center news-section-inner">
@@ -113,7 +121,7 @@
         <div class="expert-intro-inner container">
             <div class="upper-part">
                 <div class="upper-part-inner">
-                    <h2 class="text-uppercase">专家风采</h2>
+                    <h2 class="text-uppercase">消息公告</h2>
                     <p class="text-uppercase f-14">expert introduction</p>
                 </div>
             </div>
@@ -122,7 +130,7 @@
                     <?php foreach ($website as $w) { ?>
                         <div class="expert-left-slider-content">
                             <img src="{{url('/storage').'/app/'.$w['website_image']}}" />
-                            <p class="mb-0 f-16"><?php echo $w['website_title'] ?></p>
+                            <p class="mb-0 f-14"><span><?php echo $w['website_title'] ?></span></p>
                         </div>
                     <?php } ?>
                 </div>
@@ -131,10 +139,10 @@
                         <div class="expert-right-inner">
                             <div class="expert-post-info">
                                 <div class="expert-post-date mr-4">
-                                    <p><?php echo date('d', strtotime($w['created_at'])) ?> <span><?php echo date('Y/m', strtotime($w['created_at'])) ?></span></p>
+                                    <p class="date-p"><?php echo date('d', strtotime($w['created_at'])) ?> <span><?php echo date('Y/m', strtotime($w['created_at'])) ?></span></p>
                                 </div>
                                 <div class="expert-post-content">
-                                    <h2><?php echo $w['website_title'] ?></h2>
+                                    <h2 class="title-h"><a href="website_dynamics/post/id/<?php echo $w['id'] ?>"><?php echo $w['website_title'] ?></a></h2>
                                     <p><?php echo $w['website_description'] ?></p>
                                 </div>
                             </div>
@@ -144,7 +152,7 @@
             </div>
         </div>
     </div>
-    <div class="post-wrapper py-5">
+    <div class="post-wrapper">
         <div class="post-wrapper-inner">
             <div class="container">
                 <div class="upper-part">
@@ -155,14 +163,14 @@
                 </div>
                 <div class="row mx-0 expert-intro-innerr">
                     <div class="col-8 expert-right">
-                        <?php foreach ($medical as $m) { ?>
+                        <?php foreach ($posts as $m) { ?>
                             <div class="expert-right-inner">
                                 <div class="expert-post-info">
                                     <div class="expert-post-date mr-4">
-                                        <p><?php echo date('d', strtotime($m['created_at'])) ?> <span><?php echo date('Y/m', strtotime($m['created_at'])) ?></span></p>
+                                        <p class="date-p"><?php echo date('d', strtotime($m['created_at'])) ?> <span><?php echo date('Y/m', strtotime($m['created_at'])) ?></span></p>
                                     </div>
                                     <div class="expert-post-content">
-                                        <h3><?php echo $m['title'] ?></h3>
+                                        <h3 class="title-h"><a href="health/post/id/<?php echo $m['id'] ?>"><?php echo $m['title'] ?></a></h3>
                                         <p class="medical-desc"> {!! substr($m['description'],0,125).'...'; !!}</p>
                                     </div>
                                 </div>
@@ -171,10 +179,10 @@
 
                     </div>
                     <div class="col-4 expert-left expert-left-slider">
-                        <?php foreach ($medical as $m) { ?>
+                        <?php foreach ($posts as $m) { ?>
                             <div class="expert-left-slider-content">
-                                <img src="{{url('/storage').'/app/'.$m['image']}}" />
-                                <p class="mb-0 f-16"><?php echo $m['title'] ?></p>
+                                <img src="{{url('/storage').'/app/'.$m['website_image']}}" />
+                                <p class="mb-0 f-14"><?php echo $m['title'] ?></p>
                             </div>
                         <?php } ?>
                     </div>

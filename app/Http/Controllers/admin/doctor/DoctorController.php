@@ -25,10 +25,12 @@ class DoctorController extends Controller {
     }
 
     public function store(Request $request) {
+
         $doctor = new Doctor();
         $doctor->name = $request->name;
         $doctor->title = $request->title;
         $doctor->description = $request->description;
+        $doctor->company_name = $request->company_name;
         $doctor->image = $request->image_url;
         $doctor->save();
     }
@@ -52,6 +54,15 @@ class DoctorController extends Controller {
         $doctor = $doctor->orderBy('created_at', 'DESC')->get();
         $response = ['records' => $doctor];
         return response()->json($response);
+    }
+
+    public function frontEdit(Request $request) {
+        $single_doctor = Doctor::find($request->id)->update([
+            'name' => $request->name,
+            'title' => $request->title,
+            'company_name' => $request->companyName,
+            'description' => $request->description
+        ]);
     }
 
     public function uploadBlogImage(Request $request) {

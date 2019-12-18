@@ -3,7 +3,7 @@
         <div class="form-group">
             <label for="title">Title:</label>
             <input v-validate="'required'"  type="text" class="form-control" name="post_title" placeholder="Enter title" v-model="post_data.title">
-            <span class="text-danger">{{ errors.first('post_title') }}</span>
+                <span class="text-danger">{{ errors.first('post_title') }}</span>
         </div>
         <div class="form-group">
             <label for="school">Category:</label>
@@ -18,6 +18,29 @@
             <vue-editor v-validate="'required'"  v-model="post_data.description" name="description"> </vue-editor>
             <span class="text-danger">{{ errors.first('description') }}</span>
         </div>
+
+        <div class="form-group" v-if="health_image.image == ''">
+            <label class="control-label">Image</label>
+            <div class="control_element"> 
+                <div class="box">
+                    <form id="uploadForm" enctype="multipart/form-data" v-on:change="uploadImage()">
+                        <input type="file" name="fileupload" id="fileupload" class="inputfile inputfile-6"/>
+                        <label for="fileupload"><span class="uploaded-image">{{health_image.image}}</span><strong><i class="fa fa-upload"></i></strong></label>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="form-group" v-if="health_image.image != ''">
+            <label class="control-label">Image</label>
+            <div class="control_element">
+                <div class="wrap-img-upload">
+                    <img v-bind:src="site_url + '/storage/app/' + health_image.image" class="img-fluid"/>
+                    <button class="close-img" @click.prevent='deleteImage()'><i class="fa fa-remove"></i></button>
+                </div>
+            </div>
+        </div>
+
+
         <button type="submit" @click.prevent="update" class="btn btn-default">Submit</button>
     </div>
 </template>
@@ -31,6 +54,9 @@ export default {
         return{
             post_data: {},
             site_url: site_root,
+            health_image: {
+                image: ""
+            },
             category: {}
         }
     },
@@ -47,6 +73,31 @@ export default {
             }).catch(function (error) {
                 console.log(error.message);
             });
+        },
+        uploadImage: function () {
+            var thisObject = this;
+            var formData = new FormData();
+            var imagefile = document.querySelector('#fileupload');
+            formData.append("image", imagefile.files[0]);
+            axios.post(thisObject.site_url + '/admin/health/upload-image', formData, {
+                headers: {
+                    'Content-Type': 'multipart/form-data'
+                },
+                onUploadProgress: function (progressEvent) {
+                    this.uploadPercentage = parseInt(Math.round((progressEvent.loaded * 100) / progressEvent.total));
+                }.bind(this)
+            }).then(function (response) {
+                thisObject.health_image.image = response.data.data.url;
+                thisObject.post_data.website_image = response.data.data.url;
+                console.log(thisObject.school.logo);
+            }).catch(function (error) {
+                thisObject.errors = error.response.data.errors;
+            });
+        },
+        deleteImage: function () {
+            var thisObject = this;
+            thisObject.health_image.image = "";
+            thisObject.post_data.website_image = "";
         },
         update() {
             var thisObject = this;

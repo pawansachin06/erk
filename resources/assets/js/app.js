@@ -7,8 +7,11 @@
 import Vue from 'vue';
 import VueSwal from 'vue-swal'
 import VeeValidate from 'vee-validate'
+import BootstrapVue from 'bootstrap-vue'
 Vue.use(VueSwal);
 Vue.use(VeeValidate);
+
+Vue.use(BootstrapVue);
 
 
 require('./bootstrap');
@@ -60,13 +63,6 @@ Vue.component('other-post-add-component', require('./components/admin/other/post
 Vue.component('other-post-edit-component', require('./components/admin/other/post/PostEditComponent.vue'));
 Vue.component('email-edit-component', require('./components/admin/admin_email/EmailEditComponent.vue'));
 Vue.component('email-view-component', require('./components/admin/admin_email/EmailViewComponent.vue'));
-
-
-
-
-
-
-
 
 const app = new Vue({
     el: '#app'

@@ -28,7 +28,7 @@ class DoctorController extends Controller {
         $category = Category::all();
         $news_category = NewsCategory::all();
         $other_category = OtherCategory::all();
-        return view('customer.doctor.single-doctor', compact('single_doctor','medical', 'category', 'news_category', 'other_category'));
+        return view('customer.doctor.single-doctor', compact('single_doctor', 'medical', 'category', 'news_category', 'other_category'));
     }
 
 }

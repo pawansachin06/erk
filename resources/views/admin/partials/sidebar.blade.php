@@ -74,7 +74,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="nav-item dropdown">
+<!--            <li class="nav-item dropdown">
                 <a class="dropdown-toggle" href="javascript:void(0);">
                     <span class="icon-holder">
                         <i class="fa fa-medkit"></i>
@@ -92,11 +92,11 @@
                         <a href="{{ url('/admin/other/posts') }}">所有帖子</a>
                     </li>
                 </ul>
-            </li>
+            </li>-->
             <li class="nav-item dropdown">
                 <a class="dropdown-toggle" href="javascript:void(0);">
                     <span class="icon-holder">
-                        <i class="fa fa-sliders"></i>
+                        <i class="fa fa-picture-o"></i>
                     </span>
                     <span class="title">主页背景</span>
                     <span class="arrow">
@@ -112,7 +112,7 @@
             <li class="nav-item dropdown">
                 <a class="dropdown-toggle" href="javascript:void(0);">
                     <span class="icon-holder">
-                        <i class="fa fa-sliders"></i>
+                        <i class="fa fa-envelope-o"></i>
                     </span>
                     <span class="title">管理员电子邮件</span>
                     <span class="arrow">
@@ -130,9 +130,9 @@
             <li class="nav-item dropdown">
                 <a class="dropdown-toggle" href="javascript:void(0);">
                     <span class="icon-holder">
-                        <i class="fa fa-sliders"></i>
+                        <i class="fa fa-file-code-o"></i>
                     </span>
-                    <span class="title">Website Dynamics</span>
+                    <span class="title">中文到</span>
                     <span class="arrow">
                         <i class="mdi mdi-chevron-right"></i>
                     </span>
@@ -147,9 +147,9 @@
             <li class="nav-item dropdown">
                 <a class="dropdown-toggle" href="{{ url('/admin/about/edit/1')}}">
                     <span class="icon-holder">
-                        <i class="fa fa-sliders"></i>
+                        <i class="fa fa-user"></i>
                     </span>
-                    <span class="title">About Us</span>
+                    <span class="title">关于我们</span>
                     <span class="arrow">
                         <i class="mdi mdi-chevron-right"></i>
                     </span>

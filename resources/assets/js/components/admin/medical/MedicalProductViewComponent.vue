@@ -38,37 +38,37 @@
 </template>
 
 <script>
-import {site_root} from '../../../globalSetting.js';
-export default {
-    data() {
-        return{
-            medical: {},
-            site_url: site_root
-        }
-    },
-    methods: {
-        loadAllMedical() {
-            var thisObject = this;
-            axios.get(thisObject.site_url + '/admin/medical/loadAllMedical')
-                    .then(function (response) {
-                        thisObject.medical = response.data.records;
-                    }).catch(function (error) {
-                console.log(error.message);
-            });
+    import {site_root} from '../../../globalSetting.js';
+    export default {
+        data() {
+            return{
+                medical: {},
+                site_url: site_root
+            }
         },
-        deleteMedical(id) {
-            var thisObject = this;
-            axios.get(thisObject.site_url + '/admin/medical/delete/' + id)
-                    .then(function (response) {
-                        console.log(response.data);
-                        thisObject.loadAllMedical();
-                    }).catch(function (error) {
-                console.log(error.message);
-            });
+        methods: {
+            loadAllMedical() {
+                var thisObject = this;
+                axios.get(thisObject.site_url + '/admin/medical/loadAllMedical')
+                        .then(function (response) {
+                            thisObject.medical = response.data.records;
+                        }).catch(function (error) {
+                    console.log(error.message);
+                });
+            },
+            deleteMedical(id) {
+                var thisObject = this;
+                axios.get(thisObject.site_url + '/admin/medical/delete/' + id)
+                        .then(function (response) {
+                            console.log(response.data);
+                            thisObject.loadAllMedical();
+                        }).catch(function (error) {
+                    console.log(error.message);
+                });
+            }
+        },
+        mounted() {
+            this.loadAllMedical();
         }
-    },
-    mounted() {
-        this.loadAllMedical();
     }
-}
 </script>

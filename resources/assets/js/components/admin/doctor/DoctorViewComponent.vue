@@ -15,14 +15,16 @@
                                 <th>Id</th>
                                 <th>Name</th>
                                 <th>Title</th>
+                                <th>Comapny Name</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
-                        <tbody> 
+                        <tbody>
                             <tr v-for="(d,i) in doctor_data">
                                 <td>{{i+1}}</td>
                                 <td>{{d.name}}</td>
                                 <td>{{d.title}}</td>
+                                <td>{{d.company_name}}</td>
                                 <td class="text-left font-size-18 d-flex">
                                     <a :href="site_url+'/admin/doctor/edit/'+d.id" class="text-gray m-r-15"><i class="fa fa-pencil" aria-hidden="true"></i></a>
                                     <a href="#" class="btn text-gray" @click.prevent="deleteDoctor(d.id)"><i class="fa fa-trash" aria-hidden="true"></i></a>

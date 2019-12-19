@@ -9,7 +9,7 @@
                 <div class="row align-items-center banner-content-inner">
                     <div class="col-6 banner-content-innerr">
                         <h2>定制开发  个性需求</h2>
-                        <p>远秋医疗软件开发，我们专注于以全方位一站式的定制开发服务为您解决管理系统、网站APP或微信端的个性需求!</p>
+                        <p>尔康云软件开发，我们专注于以全方位一站式的定制开发服务为您解决管理系统、网站APP或微信端的个性需求!</p>
                     </div>
                     <div class="col-6 banner-content-innerr">
                         <img src="{{url('/public/images/pro.png')}}"/>

@@ -9,7 +9,7 @@
                 <div class="slider-text">
                     <h1><span>科技未来</span> 数据新时代</h1>
                     <h4 class="text-uppercase">technology future data new era</h4>
-                    <p>远秋健康医疗云大数据时代已来临</p>
+                    <p>尔康医疗云大数据时代已来临</p>
                     <p>拓路前行，领跑未来，带给你不一样的数据时代</p>
                 </div>
             </div>

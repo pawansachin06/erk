@@ -1,2 +1,0 @@
-[09-Aug-2019 07:49:06 UTC] PHP Fatal error:  Interface 'Ramsey\Uuid\Provider\TimeProviderInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/ramsey/uuid/src/Provider/Time/FixedTimeProvider.php on line 25
-[09-Aug-2019 07:49:14 UTC] PHP Fatal error:  Interface 'Ramsey\Uuid\Provider\TimeProviderInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/ramsey/uuid/src/Provider/Time/SystemTimeProvider.php on line 22

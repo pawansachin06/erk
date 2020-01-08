@@ -56,13 +56,13 @@ class DoctorController extends Controller {
         return response()->json($response);
     }
 
-    public function frontEdit(Request $request) {
-        $single_doctor = Doctor::find($request->id)->update([
-            'name' => $request->name,
-            'title' => $request->title,
-            'company_name' => $request->companyName,
-            'description' => $request->description
-        ]);
+    public function deleteFrontImage(Request $request) {
+//        $image_path = explode("http://localhost/erkclouds/storage/app/", $request->image_url);
+        $image_path = explode(storage_path('app'), $request->image_url);
+        Storage::delete($image_path);
+        $doctors = Doctor::find($request->id);
+        $doctors->image = '';
+        $doctors->save();
     }
 
     public function uploadBlogImage(Request $request) {

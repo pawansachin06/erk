@@ -45,9 +45,17 @@ Vue.component('news-post-edit-component', require('./components/admin/news/post/
 Vue.component('doctor-view-component', require('./components/admin/doctor/DoctorViewComponent.vue'));
 Vue.component('doctor-add-component', require('./components/admin/doctor/DoctorAddComponent.vue'));
 Vue.component('doctor-edit-component', require('./components/admin/doctor/DoctorEditComponent.vue'));
+
 Vue.component('slider-view-component', require('./components/admin/slider/SliderViewComponent.vue'));
 Vue.component('slider-add-component', require('./components/admin/slider/SliderAddComponent.vue'));
 Vue.component('slider-edit-component', require('./components/admin/slider/SliderEditComponent.vue'));
+
+Vue.component('user-view-component', require('./components/admin/user/UserViewComponent.vue'));
+Vue.component('user-edit-component', require('./components/admin/user/UserEditComponent.vue'));
+
+Vue.component('account-view-component', require('./components/admin/account/AccountViewComponent.vue'));
+Vue.component('account-add-component', require('./components/admin/account/AccountAddComponent.vue'));
+Vue.component('account-edit-component', require('./components/admin/account/AccountEditComponent.vue'));
 
 Vue.component('websitedynamics-view-component', require('./components/admin/website_dynamics/WebsiteDynamicsViewComponent.vue'));
 Vue.component('websitedynamics-add-component', require('./components/admin/website_dynamics/WebsiteDynamicsAddComponent.vue'));
@@ -63,6 +71,9 @@ Vue.component('other-post-add-component', require('./components/admin/other/post
 Vue.component('other-post-edit-component', require('./components/admin/other/post/PostEditComponent.vue'));
 Vue.component('email-edit-component', require('./components/admin/admin_email/EmailEditComponent.vue'));
 Vue.component('email-view-component', require('./components/admin/admin_email/EmailViewComponent.vue'));
+
+Vue.component('chat-view-component', require('./components/admin/chat/ChatViewComponent.vue'));
+Vue.component('front-chat-component', require('./components/front/ChatComponent.vue'));
 
 const app = new Vue({
     el: '#app'

@@ -64,9 +64,9 @@
                                         </form>
                                     </li>
                                 </ul>
-                            </li>                          
+                            </li>
                             @endif
-                        </ul>                       
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -74,29 +74,30 @@
             <h1></h1>
             @else
 
-            <div class="main-section-container customer-account">                                
-                <div class="sidebar-section">                                
+            <div class="main-section-container customer-account">
+                <div class="sidebar-section">
                     <div class="sidebar-account">
                         <div class="sidebar-inner">
                             <div class="sidebar-innerr list-group">
                                 <a href="{{ url('admin/medical-products') }}" class="customer-my-profile active text-left"><h4>Medical Products</h4></a>
                             </div>
                             <div class="sidebar-innerr list-group">
-                            <a href="{{ url('admin/medical-products') }}" class="customer-my-profile active text-left"><h4>Health Information</h4></a>
+                                <a href="{{ url('admin/medical-products') }}" class="customer-my-profile active text-left"><h4>Health Information</h4></a>
                             </div>
                             <div class="sidebar-innerr list-group">
-                            <a href="{{ url('admin/health/category') }}" class="customer-my-profile active text-left"><h4>All Category</h4></a>
+                                <a href="{{ url('admin/health/category') }}" class="customer-my-profile active text-left"><h4>All Category</h4></a>
                             </div>
                             <div class="sidebar-innerr list-group">
-                            <a href="{{ url('admin/health/posts') }}" class="customer-my-profile active text-left"><h4>All Post</h4></a>
-                        </div>
+                                <a href="{{ url('admin/health/posts') }}" class="customer-my-profile active text-left"><h4>All Post</h4></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            @endif
-            @yield('content')            
+                @endif
+                @yield('content')
             </div>
         </div>
         <script src="{{ asset('public/js/app.js') }}"></script>
+
     </body>
 </html>

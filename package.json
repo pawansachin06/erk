@@ -16,11 +16,13 @@
     "jquery": "^3.1.1",
     "laravel-mix": "^1.0",
     "lodash": "^4.17.4",
+    "pusher-js": "^5.0.3",
     "vue": "^2.6.10"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.1.0",
+    "laravel-echo": "^1.6.1",
     "vee-validate": "^2.2.15",
     "vue-swal": "^1.0.0",
     "vue2-editor": "^2.9.1"

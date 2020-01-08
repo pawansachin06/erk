@@ -4,7 +4,7 @@
         ?>
         <li>
             <span>
-                <a href="{{url('medical-products/post/id/'.$medicals->id)}}">{{$medicals->title}}</a>
+                <a href="{{url('medical-products/post/'.$medicals->id)}}">{{$medicals->title}}</a>
             </span>
         </li>
         <?php

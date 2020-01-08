@@ -33,7 +33,7 @@
                                     ?>
                                 </p>
                                 <div class="read-more">
-                                    <a href="{{url('medical-products/post/id/'.$m->id)}}">立即进入 <span>></span></a>
+                                    <a href="{{url('medical-products/post/'.$m->id)}}">立即进入 <span>></span></a>
                                 </div>
                             </div>
                         </div>

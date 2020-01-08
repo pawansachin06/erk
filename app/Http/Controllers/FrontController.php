@@ -14,6 +14,7 @@ use App\OtherCategory;
 use App\WebsiteDynamics;
 use App\About;
 use App\Post;
+use App\User;
 
 class FrontController extends Controller {
 
@@ -31,12 +32,14 @@ class FrontController extends Controller {
         $slider = $slider->orderBy('created_at', 'DESC')->get();
         $doctor = new Doctor();
         $doctor = $doctor->orderBy('created_at', 'DESC')->get();
+        $user = new User();
+        $user = $user->orderBy('created_at', 'DESC')->get();
         $news_category = new NewsCategory();
         $news_category = $news_category->orderBy('created_at', 'ASC')->get();
         $other_category = new OtherCategory();
         $other_category = $other_category->orderBy('created_at', 'ASC')->get();
         $category = Category::with('posts_name')->get();
-        return view('front', compact('website', 'category', 'news_post', 'medical', 'slider', 'doctor', 'news_category', 'other_category', 'posts'));
+        return view('front', compact('user', 'website', 'category', 'news_post', 'medical', 'slider', 'doctor', 'news_category', 'other_category', 'posts'));
     }
 
     public function about() {

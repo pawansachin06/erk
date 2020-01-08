@@ -61,7 +61,7 @@ html {
 @-ms-viewport {
   width: device-width;
 }
-
+.userview td img{max-width: 100px;border-radius: 50%;height: 100px;}
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }

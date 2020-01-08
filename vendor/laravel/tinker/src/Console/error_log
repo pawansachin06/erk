@@ -1,1 +1,0 @@
-[09-Aug-2019 07:59:06 UTC] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/laravel/tinker/src/Console/TinkerCommand.php on line 11

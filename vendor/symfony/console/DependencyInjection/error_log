@@ -1,1 +1,0 @@
-[09-Aug-2019 10:56:06 UTC] PHP Fatal error:  Interface 'Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php on line 27

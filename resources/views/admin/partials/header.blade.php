@@ -2,7 +2,7 @@
     <div class="header-container">
         <div class="nav-logo">
             <a href="<?php echo url('/admin'); ?>">
-                <div class="logo">Erkcloud</div>                
+                <div class="logo"><img src="{{asset('/public/images/logo.png')}}"></div>
             </a>
         </div>
         <ul class="nav-left">
@@ -25,10 +25,10 @@
                         <a href="{{url('/admin/medical-products')}}">
                             <div class="text-center">
                                 <i class="mdi mdi mdi-cart font-size-30 icon-gradient-success"></i>
-                                <p class="m-b-0">Product</p>
+                                <p class="m-b-0">产品</p>
                             </div>
                         </a>
-                    </li>                    
+                    </li>
                 </ul>
             <li class="user-profile dropdown dropdown-animated scale-left">
                 <a href="" class="dropdown-toggle" data-toggle="dropdown">
@@ -62,8 +62,8 @@
                             <span>Logout</span>
                         </a>
                     </li>
-                </ul>    
+                </ul>
             </li>
-        </ul> 
+        </ul>
     </div>
 </div>

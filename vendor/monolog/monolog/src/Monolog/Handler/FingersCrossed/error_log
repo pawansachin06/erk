@@ -1,2 +1,0 @@
-[09-Aug-2019 11:38:38 UTC] PHP Fatal error:  Interface 'Monolog\Handler\FingersCrossed\ActivationStrategyInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ErrorLevelActivationStrategy.php on line 21
-[09-Aug-2019 11:42:39 UTC] PHP Fatal error:  Interface 'Monolog\Handler\FingersCrossed\ActivationStrategyInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ChannelLevelActivationStrategy.php on line 36

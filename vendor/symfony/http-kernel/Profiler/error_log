@@ -1,1 +1,0 @@
-[09-Aug-2019 06:52:50 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\Profiler\ProfilerStorageInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/http-kernel/Profiler/FileProfilerStorage.php on line 19

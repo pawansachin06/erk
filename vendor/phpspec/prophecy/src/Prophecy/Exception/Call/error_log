@@ -1,1 +1,0 @@
-[09-Aug-2019 10:49:41 UTC] PHP Fatal error:  Class 'Prophecy\Exception\Prophecy\ObjectProphecyException' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpspec/prophecy/src/Prophecy/Exception/Call/UnexpectedCallException.php on line 17

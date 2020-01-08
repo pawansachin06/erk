@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Storage;
 use App\NewsCategory;
 use App\NewsPost;
 use App\Slider;
+use App\Account;
 
 class SliderController extends Controller {
 
@@ -53,7 +54,7 @@ class SliderController extends Controller {
         return response()->json($response);
     }
 
-    public function uploadBlogImage(Request $request) {       
+    public function uploadBlogImage(Request $request) {
         $data = Input::all();
         $validator = Validator::make($data, [
                     'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',

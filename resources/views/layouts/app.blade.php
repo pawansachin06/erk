@@ -14,10 +14,14 @@
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <script src="{{ asset('public/js/app.js') }}"></script>
-        <script src="{{ asset('public/js/slick.min.js') }}" type="text/javascript"></script>
+        <!--<script src="{{ asset('public/js/app.js') }}"></script>-->
+        <script src="{{asset('public/vendor/jquery/dist/jquery.min.js')}}"></script>
+<!--        <script src="https://localhost/erkclouds/public/vendor/jquery/dist/jquery.min.js"></script>-->
         <script src="//cdn.ckeditor.com/4.11.3/standard/ckeditor.js"></script>
         <script src="{{ asset('public/js/custom.js') }}" type="text/javascript"></script>
+        <script src="https://js.pusher.com/5.0/pusher.min.js"></script>
+        
+
     </head>
     <body>
         <div id="app">
@@ -54,38 +58,6 @@
 
         <script type="text/javascript">
             $(document).ready(function () {
-                $('.doctor-slider5').slick({
-                    autoplay: true,
-                    infinite: true,
-                    autoplaySpeed: 1500,
-                    slidesToScroll: 1,
-                    slidesToShow: 4,
-                    arrows: false,
-                    pauseOnHover: true,
-                    responsive: [
-                        {
-                            breakpoint: 1024,
-                            settings: {
-                                slidesToShow: 3,
-                                slidesToScroll: 3
-                            }
-                        },
-                        {
-                            breakpoint: 767,
-                            settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 2
-                            }
-                        },
-                        {
-                            breakpoint: 600,
-                            settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1
-                            }
-                        }
-                    ]
-                });
                 $('.expert-left-slider').slick({
                     slidesToScroll: 1,
                     slidesToShow: 1,
@@ -94,8 +66,7 @@
                     dots: true
                 });
             });
-        </script>
-        <script type="text/javascript">
+
             (function ($)
             {
                 $(document).ready(function () {
@@ -124,5 +95,7 @@
                 });
             })(jQuery);
         </script>
+        <script src="{{ asset('public/js/app.js') }}"></script>
+        <script src="{{ asset('public/js/slick.min.js') }}" type="text/javascript"></script>
     </body>
 </html>

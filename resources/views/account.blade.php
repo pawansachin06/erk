@@ -5,9 +5,8 @@
 <div>
     <input id="aaa" type="hidden" value="{{$user->id}}" name="head" />
 </div>
-
-
-<div class="user-info site-content">
+<?php // print_r($medical); ?>
+<div class="user-info site-content account-page">
     <div class="container user-info-inner">
         <div class="user-info-innerr h-100 d-flex">
             <div class="user-sidebar p-0">
@@ -20,14 +19,29 @@
                 <div class="user-content-upper p-4 d-flex">
                     <div class="user-content-upper-inner">
                         <div class="user-img mr-4">
-                            <img src="{{url('/public/images/user.jpg')}}" />
+                            <img src="{{url('/storage').'/app/'.$user['image']}}" />
+                            <div class="edit-img">
+                                <form id="uploadForm" type="POST" enctype="multipart/form-data">
+                                    <input type="button" id="loadFileXml" value="Choose a file (Click me)" onclick="document.getElementById('fileupload').click();" />
+                                    <input type="file" name="fileupload" id="fileupload" class="form-control inputfile"  />
+                                    <label for="fileupload">
+                                        <span placeholder="upload image" class="uploaded-image"></span>
+                                    </label>
+                                </form>
+                                <img id="imageid" src="{{url('/storage').'/app/'.$user['image']}}" class="img-fluid"/>
+                                <button id="AccountImageDelete" class="close-img"><i class="fa fa-remove"></i></button>
+                                <input type="hidden" id="imageidforsave" value="" />
+                            </div>
                         </div>
                         <div class="login-user-info">
                             <p class="user-name">{{$user['name']}}</p>
                             <p class="edit-user-name">
                                 <input type="hidden" value="{{$user['name']}}" id="username" name="username" />
                             </p>
-                            <p class="user-age">Age: 34</p>
+                            <p class="user-age">Age: {{$user['age']}}</p>
+                            <p class="edit-user-age">
+                                <input type="hidden" value="{{$user['age']}}" id="userage" name="userage" />
+                            </p>
                             <p class="user-email">Email: {{$user['email']}}</p>
                             <p class="edit-user-email">
                                 <input type="hidden" value="{{$user['email']}}" id="useremail" name="useremail" />
@@ -51,43 +65,46 @@
                             @foreach($prod_purchase as $item)
 
                             <?php
+//                            print_r($item);
                             $now = Carbon\Carbon::now();
                             $end_date = Carbon\Carbon::parse($item->valid_to);
+//                            print_r($end_date);
                             $lengthOfAd = $end_date->diffInDays($now);
-//                                print_r($lengthOfAd);
+//                            print_r($lengthOfAd);
+                            $aCls = '';
                             if ($item->valid_to > $now) {
                                 if ($lengthOfAd <= 30) {
-                                    $status = "almost expire";
+                                    $status = "已到期";
+                                    $aCls = 'almost_expire';
                                 } else {
-                                    $status = "in using";
+                                    $status = "使用中";
+                                    $aCls = 'in_using';
                                 }
                             } else {
-                                $status = "expired";
+                                $status = "快到期";
+                                $aCls = 'expired';
                             }
                             ?>
                             <div class="user-product-content-inner py-4 px-3">
                                 <div class="user-product-content-innerr">
-                                    <p>{{ $item->title }} <span>{{ $status }}</span></p>
+                                    <p class="<?php echo $aCls ?>"><a href="{{$item->link}}" target="_blank">{{ $item->title }} <span>{{ $status }}</span></a></p>
                                     <p class="mb-0">有效期：{{ $item->valid_from }} 至 {{ $item->valid_to }}</p>
                                 </div>
                                 <div class="product-btn-wrapper d-flex justify-content-between">
-                                    <?php if($status == "expired"){ ?>
+                                    <?php if ($status == "expired") { ?>
                                         <p class="mb-0 mr-5">
-                                            <a 
-                                                data-toggle="modal" 
-                                                data-target="#selectPlan" 
-                                                data-title="{{ $item->title }}" 
-                                                data-pid="{{ $item->prod_id }}" 
-                                                class="nav-link btn mt-0" 
+                                            <a
+                                                data-toggle="modal"
+                                                data-target="#selectPlan"
+                                                data-title="{{ $item->title }}"
+                                                data-pid="{{ $item->prod_id }}"
+                                                class="nav-link btn mt-0"
                                                 href="javascript:void(0)"
-                                                onclick="javascript: setAttValues(this)">立即续费</a>
+                                                onclick="javascript: setAttValues(this)"><img src="{{url('/public/images/recharge-now.png')}}" /> 立即续费</a>
                                         </p>
                                     <?php } ?>
-                                    <p class="mb-0"><a href="#">立即续费</a></p>
+                                    <p class="mb-0"><a href="{{url('medical-products/post/'.$item->MedId)}}"><img src="{{url('/public/images/see-details.png')}}" /> 立即续费</a></p>
                                 </div>
-                            </div>
-                            <div class="user-product-content-inner">
-
                             </div>
                             @endforeach
                         </div>
@@ -107,7 +124,9 @@
                 <div class="row login-page mx-0">
                     <div class="col-md-12 laravel-login-inner">
                         <div class="modal-header p-0">
-                            <button type="button" class="close" data-dismiss="modal"><span><img src="{{asset('/public/images/cross-btn.png')}}"></span></button>
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span><img src="{{asset('/public/images/cross-btn.png')}}"></span>
+                            </button>
                         </div>
                         <div class="login-body-width panel panel-default mb-0">
                             <div class="panel-heading text-center">Select Plan</div>
@@ -149,87 +168,6 @@
         </div>
     </div>
 </div>
-
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        var singleid = jQuery("#aaa").val();
-        $(".edit-btn a").click(function () {
-            $(".user-content").append("<div class='save-btn-wrapper text-center'><button class='save-btn'>save</button></div>");
-            $(".user-info .user-name").hide();
-            $(".user-info .user-email").hide();
-            event.preventDefault();
-            var type = $(".user-info input").attr('type');
-            switch (type) {
-                case 'hidden':
-                {
-                    $(".user-info input").attr('type', 'text');
-                    return;
-                }
-            }
-        });
-        $('body').on("click", ".save-btn-wrapper .save-btn", function () {
-            $.ajax({
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                },
-                url: '/erkclouds/account/user/user-edit',
-                method: "POST",
-                data: {id: singleid, username: jQuery("#username").val(), useremail: jQuery("#useremail").val()},
-                success: function (data) {
-                    alert("update data");
-                }
-            });
-            setTimeout(function () {
-                window.location.reload();
-            }, 1000);
-        });
-
-        $('#plan').change(function () {
-            if ($('#pid').val() == 4 || $('#pid').val() == 7 || $('#pid').val() == 11 || $('#pid').val() == 12) {
-                if ($(this).val() == "1 Month") {
-                    $('#amt').val('180');
-                    $('#price').text("Price: 180 USD");
-                } else if ($(this).val() == "3 Month") {
-                    $('#amt').val('480');
-                    $('#price').text("Price: 480 USD");
-                } else if ($(this).val() == "6 Month") {
-                    $('#amt').val('780');
-                    $('#price').text("Price: 780 USD");
-                } else if ($(this).val() == "1 Year") {
-                    $('#amt').val('1000');
-                    $('#price').text("Price: 1000 USD");
-                }
-            } else if ($('#pid').val() == 13) {
-                if ($(this).val() == "1 Month") {
-                    $('#amt').val('90');
-                    $('#price').text("Price: 90 USD");
-                } else if ($(this).val() == "3 Month") {
-                    $('#amt').val('240');
-                    $('#price').text("Price: 240 USD");
-                } else if ($(this).val() == "6 Month") {
-                    $('#amt').val('390');
-                    $('#price').text("Price: 390 USD");
-                } else if ($(this).val() == "1 Year") {
-                    $('#amt').val('500');
-                    $('#price').text("Price: 500 USD");
-                }
-            }
-        })
-    }
-    );
-
-    function setAttValues(obj) {
-        setTimeout(function () {
-//            alert("Hello " + obj.getAttribute('data-pid'));
-            $('#title').val(obj.getAttribute('data-title'));
-            $('#pid').val(obj.getAttribute('data-pid'));
-        }, 1000);
-    }
-
-
-</script>
-
 
 @include('footer')
 @endsection

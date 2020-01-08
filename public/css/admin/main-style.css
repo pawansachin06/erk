@@ -20,6 +20,34 @@ a.pagination-anchor[disabled="disabled"] {  color: #cacaca !important;cursor: in
 
 
 
+/******************************************Chat*****************************/
+
+.chat-window-inner.chat-window-right-part {width: calc(100% - 200px);}
+.chat-window-inner.chat-window-right-part p{height: calc(100% - 60px);overflow: auto;}
+.guest.active {background:#a9a9a9;color:#fff;}
+.chat-window-inner.chat-window-left-part {width: 200px;}
+.guest, .guest-content{padding: 15px;cursor: pointer;}
+.guest{border-bottom: 1px solid #000;border-left: 1px solid #000;text-align: center;}
+.notification i{font-size: 16px;color:#fd3259;}
+.notification {display: inline-block;margin-left: 15px;position: relative;}
+.guest{display: flex;justify-content: center;align-items: center;}
+.chat-window .guest-content{width:100%;border:1px solid #000;height: 100%;}
+.guest-input-wrapper{display: flex;}
+.guest-input-wrapper input:first-child{width: calc(100% - 100px);}
+.guest-input-wrapper input:last-child{width: 100px;margin-bottom: 0;}
+.guest-content ul{list-style-type: none;padding-left: 0;}
+.guest-content ul li{padding: 10px 0;}
+.guest-content ul li:first-child .admin-noti{display: none;}
+.msg-right-align{text-align: right;display: inline-block;width: 100%;}                                       
+  .msg-left-align{text-align: left;display: inline-block;width: 100%;}
+  .chat-window-left-part .guest:first-child{border-top:1px solid #000;}
+  
+  /*.chat-window-inner.chat-window-right-part{height: calc(100% - 300px);overflow: auto;}*/
+  /*.chat-window-inner.chat-window-left-part{height: calc(100% - 300px);overflow: auto;}*/
+  .content-section .chat-window{overflow: auto;height: calc(100vh - 174px);}
+
+
+
 /****************************************Admin Dashboard****************************************************/
 
 
@@ -29,7 +57,8 @@ a.pagination-anchor[disabled="disabled"] {  color: #cacaca !important;cursor: in
 .admin-box p{text-align: center;}
 .admin-box-innerr{background: #04a1f4;padding: 50px 0;}
 .admin-box .admin-box-inner a {color: #fff !important;}
-
+.guest-noti{display: inline-block;width: 30px;margin-right: 15px;background: #a9a9a9;color: #fff;text-align: center;border-radius: 50%;height: 30px;line-height: 30px;}
+.admin-noti{display: inline-block;width: 30px;margin-left: 15px;background: #a9a9a9;color: #fff;text-align: center;border-radius: 50%;height: 30px;line-height: 30px;}
 
 
 
@@ -61,3 +90,8 @@ p.total-amt {width: 20%;}
 .reorder-wrapper {background: #EDF5F8;display: flex;align-items: center;justify-content: center;}
 .reorder-wrapper a {color: #2b96e9;font-family: 'Assistant';font-size: 15px;font-weight: 700;letter-spacing: 1px;border: 1px solid #2b96e9;padding: 10px 20px;display: inline-block;min-width: 165px;text-align: center;text-transform: uppercase;letter-spacing: 3px;}
 .order-history-detail p{color:#4d4d4d;font-weight:400;font-size: 14px;letter-spacing:0.5px;margin-bottom: 5px;}
+
+
+@media(min-width:992px){
+    .header-info.side-nav-folded .header .header-container .nav-logo {width: 150px;padding: 0px 20px;}    
+}

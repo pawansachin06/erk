@@ -1,2 +1,0 @@
-[09-Aug-2019 06:58:27 UTC] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/css-selector/Parser/Token.php on line 38
-[09-Aug-2019 06:58:41 UTC] PHP Fatal error:  Interface 'Symfony\Component\CssSelector\Parser\ParserInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/css-selector/Parser/Parser.php on line 28

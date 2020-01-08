@@ -1,1 +1,0 @@
-[09-Aug-2019 06:50:00 UTC] PHP Fatal error:  Trait 'Symfony\Component\DependencyInjection\Compiler\PriorityTaggedServiceTrait' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/DependencyInjection/RoutingResolverPass.php on line 26

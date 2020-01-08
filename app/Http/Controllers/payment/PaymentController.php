@@ -45,11 +45,11 @@ class PaymentController extends Controller {
         $other_category = new OtherCategory();
         $other_category = $other_category->orderBy('created_at', 'ASC')->get();
         $category = Category::with('posts_name')->get();
-        
+
         //Update product purchase table that payment is successfully done.
         ProdPurchase::where('sale_id', $_GET['sale_id'])
-                        ->update(['status' => 1]);
-        
+                ->update(['status' => 1]);
+
         return view('return', compact('user', 'website', 'category', 'news_post', 'medical', 'slider', 'doctor', 'news_category', 'other_category'));
     }
 
@@ -82,39 +82,29 @@ class PaymentController extends Controller {
         $description = $request->title;
         $plan = $request->plan;
         $uuid = $this->uuid();
-        
-        if($plan == "1 Month"){
+
+        if ($plan == "1 Month") {
             $val_to = date('Y-m-d', strtotime('+1 months'));
-        }else if($plan == "3 Month"){
+        } else if ($plan == "3 Month") {
             $val_to = date('Y-m-d', strtotime('+3 months'));
-        }else if($plan == "6 Month"){
+        } else if ($plan == "6 Month") {
             $val_to = date('Y-m-d', strtotime('+6 months'));
-        }else if($plan == "1 Year"){
+        } else if ($plan == "1 Year") {
             $val_to = date('Y-m-d', strtotime('+12 months'));
         }
-        
+
         //Save product purchase record.
         $this->savePayment($sale_id, $prod_id, $val_to);
-        
+
         $return_url = url("account/payment/return/?sale_id=$sale_id");
         $notify_url = url("account/payment/notify/?id=$uuid");
         $alipay = new Alipay();
         $approve = $alipay->createPayment($sale_id, $amount, "USD", $description, $return_url, $notify_url);
         return redirect($approve);
-        
-//        $sale_id = uniqid();
-//        $amount = 2;
-//        $description = "A pair of shoes";
-//        $uuid = $this->uuid();
-//        $return_url = url("account/payment/return/?sale_id=$sale_id");
-//        $notify_url = url("account/payment/notify/?id=$uuid");
-//        $alipay = new Alipay();
-//        $approve = $alipay->createPayment($sale_id, $amount, "USD", $description, $return_url, $notify_url);
-//        return redirect($approve);
     }
-    
+
     public function savePayment($sale_id, $prod_id, $val_to) {
-        
+
         $prod_purchase = new ProdPurchase();
         $prod_purchase->sale_id = $sale_id;
         $prod_purchase->user_id = Auth::user()->id;

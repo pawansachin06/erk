@@ -1,2 +1,0 @@
-[09-Aug-2019 07:09:11 UTC] PHP Fatal error:  Interface 'Symfony\Component\Console\CommandLoader\CommandLoaderInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/console/CommandLoader/FactoryCommandLoader.php on line 21
-[09-Aug-2019 07:09:23 UTC] PHP Fatal error:  Interface 'Symfony\Component\Console\CommandLoader\CommandLoaderInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/console/CommandLoader/ContainerCommandLoader.php on line 22

@@ -74,25 +74,6 @@
                     </li>
                 </ul>
             </li>
-<!--            <li class="nav-item dropdown">
-                <a class="dropdown-toggle" href="javascript:void(0);">
-                    <span class="icon-holder">
-                        <i class="fa fa-medkit"></i>
-                    </span>
-                    <span class="title">其他</span>
-                    <span class="arrow">
-                        <i class="mdi mdi-chevron-right"></i>
-                    </span>
-                </a>
-                <ul class="dropdown-menu">
-                    <li>
-                        <a href="{{ url('/admin/other/category') }}">所有类别</a>
-                    </li>
-                    <li>
-                        <a href="{{ url('/admin/other/posts') }}">所有帖子</a>
-                    </li>
-                </ul>
-            </li>-->
             <li class="nav-item dropdown">
                 <a class="dropdown-toggle" href="javascript:void(0);">
                     <span class="icon-holder">
@@ -139,7 +120,7 @@
                 </a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a href="{{ url('/admin/website_dynamics/view') }}">All Post</a>
+                        <a href="{{ url('/admin/website_dynamics/view') }}">全部发布</a>
                     </li>
                 </ul>
             </li>
@@ -155,6 +136,59 @@
                     </span>
                 </a>
             </li>
+
+            <li class="nav-item dropdown">
+                <a class="dropdown-toggle" href="javascript:void(0);">
+                    <span class="icon-holder">
+                        <i class="fa fa-picture-o"></i>
+                    </span>
+                    <span class="title">账户</span>
+                    <span class="arrow">
+                        <i class="mdi mdi-chevron-right"></i>
+                    </span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="{{ url('/admin/account/view') }}">视图</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="dropdown-toggle" href="javascript:void(0);">
+                    <span class="icon-holder">
+                        <i class="fa fa-user"></i>
+                    </span>
+                    <span class="title">用户</span>
+                    <span class="arrow">
+                        <i class="mdi mdi-chevron-right"></i>
+                    </span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="{{ url('/admin/user/view') }}">所有用户</a>
+                    </li>
+                </ul>
+            </li>
+            
+            
+            <li class="nav-item dropdown">
+                <a class="dropdown-toggle" href="javascript:void(0);">
+                    <span class="icon-holder">
+                        <i class="fa fa-comments"></i>
+                    </span>
+                    <span class="title">聊天</span>
+                    <span class="arrow">
+                        <i class="mdi mdi-chevron-right"></i>
+                    </span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="{{ url('/admin/chat') }}">所有聊天</a>
+                    </li>
+                </ul>
+            </li>
+
 
 
 

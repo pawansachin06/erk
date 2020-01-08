@@ -1,4 +1,0 @@
-[09-Aug-2019 08:30:30 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/fzaninotto/faker/test/Faker/Calculator/LuhnTest.php on line 8
-[09-Aug-2019 08:30:37 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/fzaninotto/faker/test/Faker/Calculator/InnTest.php on line 8
-[09-Aug-2019 08:31:00 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/fzaninotto/faker/test/Faker/Calculator/IbanTest.php on line 8
-[09-Aug-2019 08:31:02 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/fzaninotto/faker/test/Faker/Calculator/TCNoTest.php on line 8

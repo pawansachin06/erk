@@ -1,6 +1,0 @@
-[09-Aug-2019 08:41:43 UTC] PHP Fatal error:  Class 'PhpParser\Node\Scalar' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/EncapsedStringPart.php on line 7
-[09-Aug-2019 08:41:48 UTC] PHP Fatal error:  Class 'PhpParser\Node\Scalar' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/String_.php on line 8
-[09-Aug-2019 08:41:58 UTC] PHP Fatal error:  Class 'PhpParser\Node\Scalar' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/LNumber.php on line 8
-[09-Aug-2019 08:42:34 UTC] PHP Fatal error:  Class 'PhpParser\Node\Scalar' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Encapsed.php on line 8
-[09-Aug-2019 08:42:37 UTC] PHP Fatal error:  Class 'PhpParser\Node\Scalar' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst.php on line 7
-[09-Aug-2019 08:42:55 UTC] PHP Fatal error:  Class 'PhpParser\Node\Scalar' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/DNumber.php on line 7

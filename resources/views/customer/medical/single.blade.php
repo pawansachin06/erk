@@ -20,23 +20,19 @@
             </div>
         </div>
         @if (!Auth::guest())
-            <div class="button-wrapper text-center d-flex my-5 justify-content-center">
-                <?php if(count($prod_purchase) > 0){ ?>
-                    <div class="submit-btn after-login text-center my-5 mr-4">
-                        <a class="btn mt-0" target="_blank" href="{{url($single_post->link)}}">{{$single_post->button}}</a>
-                    </div>
-                <?php }else{ ?>
-                    <div class="purchase-btn after-login text-center my-5">
-                        <a data-toggle="modal" data-target="#selectPlan" class="nav-link btn mt-0" href="javascript:void(0)">Purchase</a>
-                    </div>
-                <?php } ?>
+        <div class="button-wrapper text-center d-flex my-5 justify-content-center">
+
+            <div class="submit-btn after-login text-center my-5 mr-4">
+                <a class="btn mt-0" target="_blank" href="{{url($single_post->link)}}">{{$single_post->button}}</a>
             </div>
+
+            <div class="purchase-btn after-login text-center my-5">
+                <a data-toggle="modal" data-target="#selectPlan" class="nav-link btn mt-0" href="javascript:void(0)">Purchase</a>
+            </div>
+            }
+        </div>
         @else
-<!--            <div class="button-wrapper text-center d-flex my-5 justify-content-center">
-                <div class="purchase-btn before-login text-center my-5">
-                    <a data-toggle="modal" data-target="#selectPlan" class="nav-link btn mt-0" href="javascript:void(0)">Purchase</a>
-                </div>
-            </div>-->
+
         @endif
     </div>
 </div>

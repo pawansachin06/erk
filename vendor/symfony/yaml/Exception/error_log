@@ -1,3 +1,0 @@
-[09-Aug-2019 07:30:04 UTC] PHP Fatal error:  Interface 'Symfony\Component\Yaml\Exception\ExceptionInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/yaml/Exception/RuntimeException.php on line 19
-[09-Aug-2019 07:30:05 UTC] PHP Fatal error:  Class 'Symfony\Component\Yaml\Exception\RuntimeException' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/yaml/Exception/DumpException.php on line 19
-[09-Aug-2019 07:30:09 UTC] PHP Fatal error:  Class 'Symfony\Component\Yaml\Exception\RuntimeException' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/yaml/Exception/ParseException.php on line 19

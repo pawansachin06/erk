@@ -1,1 +1,0 @@
-[09-Aug-2019 10:24:28 UTC] PHP Fatal error:  Class 'Prophecy\Doubler\Doubler' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/phpspec/prophecy/src/Prophecy/Doubler/CachedDoubler.php on line 22

@@ -1,2 +1,0 @@
-[09-Aug-2019 07:03:21 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\CacheClearer\CacheClearerInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php on line 19
-[09-Aug-2019 07:03:22 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\CacheClearer\CacheClearerInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/http-kernel/CacheClearer/ChainCacheClearer.php on line 21

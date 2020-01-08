@@ -1,2 +1,0 @@
-[09-Aug-2019 08:35:57 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\SessionBagInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/http-foundation/Session/SessionBagProxy.php on line 19
-[09-Aug-2019 08:36:00 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\SessionInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/http-foundation/Session/Session.php on line 25

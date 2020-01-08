@@ -1,2 +1,0 @@
-[09-Aug-2019 06:48:21 UTC] PHP Fatal error:  Interface 'Symfony\Component\Routing\Generator\UrlGeneratorInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/Generator/UrlGenerator.php on line 28
-[09-Aug-2019 06:48:26 UTC] PHP Fatal error:  Interface 'Symfony\Component\Routing\RequestContextAwareInterface' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/symfony/routing/Generator/UrlGeneratorInterface.php on line 32

@@ -1,5 +1,0 @@
-[09-Aug-2019 08:22:41 UTC] PHP Fatal error:  Class 'Faker\Provider\Address' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/fzaninotto/faker/src/Faker/Provider/id_ID/Address.php on line 5
-[09-Aug-2019 08:22:43 UTC] PHP Fatal error:  Class 'Faker\Provider\Person' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/fzaninotto/faker/src/Faker/Provider/id_ID/Person.php on line 5
-[09-Aug-2019 08:23:46 UTC] PHP Fatal error:  Class 'Faker\Provider\Internet' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/fzaninotto/faker/src/Faker/Provider/id_ID/Internet.php on line 5
-[09-Aug-2019 08:23:56 UTC] PHP Fatal error:  Class 'Faker\Provider\Company' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/fzaninotto/faker/src/Faker/Provider/id_ID/Company.php on line 5
-[09-Aug-2019 08:24:58 UTC] PHP Fatal error:  Class 'Faker\Provider\PhoneNumber' not found in /home4/pwfnrxmy/public_html/uatprojects.com/erkclouds/vendor/fzaninotto/faker/src/Faker/Provider/id_ID/PhoneNumber.php on line 5

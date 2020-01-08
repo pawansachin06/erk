@@ -42,7 +42,7 @@
                 if ($user = Auth::user()) {
                     ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{url('/account')}}"> <strong>Account</strong></a>
+                        <a class="nav-link" href="{{url('/account')}}"> <strong>我的账号</strong></a>
                     </li>
                     <li class="nav-item">
 

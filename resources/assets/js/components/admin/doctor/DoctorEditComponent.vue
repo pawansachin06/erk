@@ -67,7 +67,7 @@
                 var formData = new FormData();
                 var imagefile = document.querySelector('#fileupload');
                 formData.append("image", imagefile.files[0]);
-                axios.post(thisObject.site_url + '/admin/news/post/upload-image', formData, {
+                axios.post(thisObject.site_url + '/admin/doctor/upload-image', formData, {
                     headers: {
                         'Content-Type': 'multipart/form-data'
                     },

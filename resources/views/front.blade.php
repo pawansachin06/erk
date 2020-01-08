@@ -31,7 +31,7 @@
                         <div class="product-services-content">
                             <div class="product-item-wrap">
                                 <div class="services-box text-center">
-                                    <a class="boxed_special" href="{{url('medical-products/post/id/'.$m->id)}}">
+                                    <a class="boxed_special" href="{{url('medical-products/post/'.$m->id)}}">
                                         <div class="figure transparent">
                                             <img src="{{url('/storage').'/app/'.$m['image']}}" />
                                         </div>
@@ -80,7 +80,7 @@
                                 <p class="fs-16 mt-3 doc-company">{{$doc['company_name']}} </p>
                             </div>
                             <div class="chat-icon">
-                                <a href="#"><i class="fa fa-commenting chat-icon-img" aria-hidden="true"></i></a>
+                                <a href="JavaScript:Void(0)" class="open-popup" data-id="popup_window" data-animation="scale"><i class="fa fa-commenting chat-icon-img" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -182,13 +182,16 @@
                         <?php foreach ($posts as $m) { ?>
                             <div class="expert-left-slider-content">
                                 <img src="{{url('/storage').'/app/'.$m['website_image']}}" />
-                                <p class="mb-0 f-14"><?php echo $m['title'] ?></p>
+                                <p class="mb-0 f-14"><span><?php echo $m['title'] ?></span></p>
                             </div>
                         <?php } ?>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div id="popup_window" class="popup">
+        <front-chat-component></front-chat-component>
     </div>
 </div>
 @include('footer')

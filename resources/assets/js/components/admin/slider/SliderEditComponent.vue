@@ -1,8 +1,8 @@
 <template>
-    <div class="container">        
+    <div class="container">
         <div class="form-group" v-if="blog_detail.image == ''">
             <label class="control-label">Image</label>
-            <div class="control_element"> 
+            <div class="control_element">
                 <div class="box">
                     <form id="uploadForm" enctype="multipart/form-data" v-on:change="uploadImage()">
                         <input type="file" name="fileupload" id="fileupload" class="inputfile inputfile-6"/>
@@ -65,7 +65,7 @@
             deleteImage: function () {
                 var thisObject = this;
                 thisObject.blog_detail.image = "";
-                thisObject.doctor_data.image = "";
+                thisObject.slider_data.image = "";
             },
             update() {
                 var thisObject = this;

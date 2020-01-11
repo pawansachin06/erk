@@ -28,8 +28,9 @@
                                 <h2><?php echo $m['title'] ?></h2>
                                 <p class="medical-desc">
                                     <?php
-                                    $des = strip_tags($m['description']);
-                                    echo substr($des, 0, 120) . '...';
+                                    $des = strip_tags($m['shortdes']);
+                                    echo $des;
+//                                    echo substr($des, 0, 120) . '...';
                                     ?>
                                 </p>
                                 <div class="read-more">

@@ -83,7 +83,7 @@ class UserController extends Controller {
 
     public function loadAllUser() {
         $user = new User();
-        $user = $user->where('role', 1)->orderBy('created_at', 'DESC')->get();
+        $user = $user->orderBy('created_at', 'DESC')->get();
 
         $response = ['records' => $user];
         return response()->json($response);
